@@ -1,0 +1,15 @@
+Library Hours Now data feed (libraries.json)
+
+Contains information from OpenStreetMap, which is made available under the Open Database
+License (ODbL) 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+
+(c) OpenStreetMap contributors. https://www.openstreetmap.org/copyright
+
+This feed is a derived database. Records whose id starts with "osm_" (field "o" holds the OSM
+object) come from OpenStreetMap; if you use or redistribute this database you must keep this
+attribution and offer the derived database under the same licence (ODbL, share-alike).
+
+Records whose id starts with "lh_" were extracted from the public pages of libraryhours24.com
+(opening hours as published there) and are provided for the Library Hours Now app.
+
+Opening hours can change without notice. Always confirm with the library.

@@ -1,0 +1,191 @@
+{
+"1 Margaret Mitchell Square, Atlanta, GA 30303, Atlanta, US": [
+33.7577445,
+-84.3884598
+],
+"10 W 14th Ave Pkwy, Denver, CO 80204, Denver, US": [
+39.7384615,
+-104.9902638
+],
+"100 Larkin St, San Francisco, CA 94102, San Francisco, US": [
+37.7791882,
+-122.4157831
+],
+"100 Victoria St, Singapore 188064, Singapore, SG": [
+1.2976671,
+103.8542924
+],
+"1000 4th Ave, Seattle, WA 98104, Seattle, US": [
+47.6067142,
+-122.3326983
+],
+"101 W Flagler St, Miami, FL 33130, Miami, US": [
+25.7744628,
+-80.1965857
+],
+"120 Metcalfe St, Ottawa, ON, Ottawa, CA": [
+45.4203615,
+-75.6955701
+],
+"1221 N Central Ave, Phoenix, AZ 85004, Phoenix, US": [
+33.4624422,
+-112.0731695
+],
+"1301 Olive St, St. Louis, MO 63103, St. Louis, US": [
+38.6307565,
+-90.1994582
+],
+"14 W 10th St, Kansas City, MO 64105, Kansas City, US": [
+39.1025807,
+-94.5838832
+],
+"1515 Young St, Dallas, TX 75201, Dallas, US": [
+32.778353,
+-96.7949124
+],
+"1901 Vine St, Philadelphia, PA 19103, Philadelphia, US": [
+39.9595913,
+-75.1710199
+],
+"300 Nicollet Mall, Minneapolis, MN 55401, Minneapolis, US": [
+44.9801673,
+-93.2699568
+],
+"301 York St, Louisville, KY 40203, Louisville, US": [
+38.2449282,
+-85.7577588
+],
+"3030 Poplar Ave, Memphis, TN 38111, Memphis, US": [
+35.1333228,
+-89.9608338
+],
+"310 N Tryon St, Charlotte, NC 28202, Charlotte, US": [
+35.2285409,
+-80.84002
+],
+"325 Superior Ave E, Cleveland, OH 44114, Cleveland, US": [
+41.5011744,
+-81.6918045
+],
+"330 Park Blvd, San Diego, CA 92101, San Diego, US": [
+32.7089055,
+-117.1541411
+],
+"4 Darling St, Cape Town, Cape Town, ZA": [
+-33.9237852,
+18.4221497
+],
+"40 E St Clair St, Indianapolis, IN 46204, Indianapolis, US": [
+39.7784094,
+-86.1567427
+],
+"400 Cathedral St, Baltimore, MD 21201, Baltimore, US": [
+39.2945237,
+-76.6173559
+],
+"400 S State St, Chicago, IL 60605, Chicago, US": [
+41.8762833,
+-87.6282117
+],
+"4400 Forbes Ave, Pittsburgh, PA 15213, Pittsburgh, US": [
+40.4437092,
+-79.9490541
+],
+"475 Boul De Maisonneuve E, Montreal, QC H2L 5C4, Montreal, CA": false,
+"500 McKinney St, Houston, TX 77002, Houston, US": [
+29.7593824,
+-95.3699544
+],
+"573 Hay St, Perth WA 6000, Perth, AU": [
+-31.9551698,
+115.8612261
+],
+"5th Ave at 42nd St, New York, NY 10018, New York, US": false,
+"615 Church St, Nashville, TN 37219, Nashville, US": [
+36.1619138,
+-86.7820904
+],
+"616 Macleod Trail SE, Calgary, AB, Calgary, CA": [
+51.0468082,
+-114.0576095
+],
+"630 W 5th St, Los Angeles, CA 90071, Los Angeles, US": [
+34.0502851,
+-118.2550914
+],
+"65 Victoria Street, Wellington, Wellington, NZ": [
+-41.2881864,
+174.7767337
+],
+"700 Boylston St, Boston, MA 02116, Boston, US": [
+42.3493298,
+-71.0786547
+],
+"710 W César Chávez St, Austin, TX 78701, Austin, US": [
+30.2660164,
+-97.7517064
+],
+"789 Yonge St, Toronto, ON M4W 2G8, Canada, Toronto, CA": false,
+"800 Vine St, Cincinnati, OH 45202, Cincinnati, US": [
+39.1055144,
+-84.5136538
+],
+"801 SW 10th Ave, Portland, OR 97205, Portland, US": [
+45.5191921,
+-122.6832062
+],
+"828 I St, Sacramento, CA 95814, Sacramento, US": [
+38.581631,
+-121.495193
+],
+"900 N Ashley Dr, Tampa, FL 33602, Tampa, US": [
+27.950354,
+-82.461256
+],
+"901 G St NW, Washington, DC 20001, Washington, US": [
+38.8986914,
+-77.0247662
+],
+"96 Euston Rd, London NW1 2DB, UK, London, GB": false,
+"96 S Grant Ave, Columbus, OH 43215, Columbus, US": [
+39.961304,
+-82.9894673
+],
+"Agüero 2502, Buenos Aires, Buenos Aires, AR": [
+-34.5843924,
+-58.3979664
+],
+"Al Jaddaf, Dubai, UAE, Dubai, AE": false,
+"Calverley St, Leeds LS1 3AB, Leeds, GB": [
+53.8001232,
+-1.5491036
+],
+"Corniche El Nil, Ramlet Boulak, Cairo, Cairo, EG": false,
+"Eje 1 Nte, Buenavista, 06350 CDMX, Mexico City, MX": [
+19.4455855,
+-99.1489572
+],
+"Macquarie St, Sydney NSW 2000, Australia, Sydney, AU": false,
+"Market Square, Johannesburg 2000, Johannesburg, ZA": false,
+"North St, Glasgow G3 7DN, Glasgow, GB": [
+55.8657485,
+-4.2717115
+],
+"Rua da Consolação 94, São Paulo, São Paulo, BR": [
+-23.5473897,
+-46.6421048
+],
+"Shaul HaMelech Blvd, Tel Aviv, Tel Aviv, IL": [
+32.078509,
+34.793016
+],
+"St Peter's Square, Manchester M2 5PD, Manchester, GB": [
+53.4778164,
+-2.2441848
+],
+"William Brown St, Liverpool L3 8EW, Liverpool, GB": [
+53.4094346,
+-2.9813306
+],
+"Zayed the 1st St, Abu Dhabi, Abu Dhabi, AE": false
+}

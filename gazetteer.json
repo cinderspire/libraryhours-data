@@ -1,0 +1,1230 @@
+{
+"abu-dhabi-library-hours": {
+"city": "Abu Dhabi",
+"country": "AE",
+"lat": 24.4539,
+"lon": 54.3773,
+"tz": "Asia/Dubai"
+},
+"adelaide-library-hours": {
+"city": "Adelaide",
+"country": "AU",
+"lat": -34.9285,
+"lon": 138.6007,
+"region": "SA",
+"tz": "Australia/Adelaide"
+},
+"albany-library-hours": {
+"city": "Albany",
+"country": "US",
+"lat": 42.6526,
+"lon": -73.7562,
+"region": "NY",
+"tz": "America/New_York"
+},
+"albuquerque-library-hours": {
+"city": "Albuquerque",
+"country": "US",
+"lat": 35.0844,
+"lon": -106.6504,
+"region": "NM",
+"tz": "America/Denver"
+},
+"amsterdam-library-hours": {
+"city": "Amsterdam",
+"country": "NL",
+"lat": 52.3676,
+"lon": 4.9041,
+"tz": "Europe/Amsterdam"
+},
+"arlington-library-hours": {
+"city": "Arlington",
+"country": "US",
+"lat": 32.7357,
+"lon": -97.1081,
+"region": "TX",
+"tz": "America/Chicago"
+},
+"athens-library-hours": {
+"city": "Athens",
+"country": "GR",
+"lat": 37.9838,
+"lon": 23.7275,
+"tz": "Europe/Athens"
+},
+"atlanta-library-hours": {
+"city": "Atlanta",
+"country": "US",
+"lat": 33.749,
+"lon": -84.388,
+"region": "GA",
+"tz": "America/New_York"
+},
+"auckland-city-library-hours": {
+"city": "Auckland",
+"country": "NZ",
+"lat": -36.8485,
+"lon": 174.7633,
+"tz": "Pacific/Auckland"
+},
+"auckland-university-library-hours": {
+"city": "Auckland",
+"country": "NZ",
+"lat": -36.8485,
+"lon": 174.7633,
+"tz": "Pacific/Auckland"
+},
+"austin-library-hours": {
+"city": "Austin",
+"country": "US",
+"lat": 30.2672,
+"lon": -97.7431,
+"region": "TX",
+"tz": "America/Chicago"
+},
+"bakersfield-library-hours": {
+"city": "Bakersfield",
+"country": "US",
+"lat": 35.3733,
+"lon": -119.0187,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"baltimore-library-hours": {
+"city": "Baltimore",
+"country": "US",
+"lat": 39.2904,
+"lon": -76.6122,
+"region": "MD",
+"tz": "America/New_York"
+},
+"bangkok-library-hours": {
+"city": "Bangkok",
+"country": "TH",
+"lat": 13.7563,
+"lon": 100.5018,
+"tz": "Asia/Bangkok"
+},
+"barcelona-library-hours": {
+"city": "Barcelona",
+"country": "ES",
+"lat": 41.3874,
+"lon": 2.1686,
+"tz": "Europe/Madrid"
+},
+"belfast-library-hours": {
+"city": "Belfast",
+"country": "GB",
+"lat": 54.5973,
+"lon": -5.9301,
+"tz": "Europe/London"
+},
+"berlin-library-hours": {
+"city": "Berlin",
+"country": "DE",
+"lat": 52.52,
+"lon": 13.405,
+"tz": "Europe/Berlin"
+},
+"birmingham-central-library-opening-times": {
+"city": "Birmingham",
+"country": "GB",
+"lat": 52.4862,
+"lon": -1.8904,
+"tz": "Europe/London"
+},
+"birmingham-library-hours": {
+"city": "Birmingham",
+"country": "GB",
+"lat": 52.4862,
+"lon": -1.8904,
+"tz": "Europe/London"
+},
+"boston-library-hours": {
+"city": "Boston",
+"country": "US",
+"lat": 42.3601,
+"lon": -71.0589,
+"region": "MA",
+"tz": "America/New_York"
+},
+"brisbane-library-hours": {
+"city": "Brisbane",
+"country": "AU",
+"lat": -27.4698,
+"lon": 153.0251,
+"region": "QLD",
+"tz": "Australia/Brisbane"
+},
+"brisbane-library-opening-hours": {
+"city": "Brisbane",
+"country": "AU",
+"lat": -27.4698,
+"lon": 153.0251,
+"region": "QLD",
+"tz": "Australia/Brisbane"
+},
+"bristol-library-hours": {
+"city": "Bristol",
+"country": "GB",
+"lat": 51.4545,
+"lon": -2.5879,
+"tz": "Europe/London"
+},
+"brooklyn-library-hours": {
+"city": "Brooklyn",
+"country": "US",
+"lat": 40.6782,
+"lon": -73.9442,
+"region": "NY",
+"tz": "America/New_York"
+},
+"brussels-library-hours": {
+"city": "Brussels",
+"country": "BE",
+"lat": 50.8503,
+"lon": 4.3517,
+"tz": "Europe/Brussels"
+},
+"budapest-library-hours": {
+"city": "Budapest",
+"country": "HU",
+"lat": 47.4979,
+"lon": 19.0402,
+"tz": "Europe/Budapest"
+},
+"buenos-aires-library-hours": {
+"city": "Buenos Aires",
+"country": "AR",
+"lat": -34.6037,
+"lon": -58.3816,
+"tz": "America/Argentina/Buenos_Aires"
+},
+"buffalo-library-hours": {
+"city": "Buffalo",
+"country": "US",
+"lat": 42.8864,
+"lon": -78.8784,
+"region": "NY",
+"tz": "America/New_York"
+},
+"cairns-library-hours": {
+"city": "Cairns",
+"country": "AU",
+"lat": -16.9186,
+"lon": 145.7781,
+"region": "QLD",
+"tz": "Australia/Brisbane"
+},
+"cairo-library-hours": {
+"city": "Cairo",
+"country": "EG",
+"lat": 30.0444,
+"lon": 31.2357,
+"tz": "Africa/Cairo"
+},
+"calgary-library-hours": {
+"city": "Calgary",
+"country": "CA",
+"lat": 51.0447,
+"lon": -114.0719,
+"region": "AB",
+"tz": "America/Edmonton"
+},
+"canberra-library-hours": {
+"city": "Canberra",
+"country": "AU",
+"lat": -35.2809,
+"lon": 149.13,
+"region": "ACT",
+"tz": "Australia/Sydney"
+},
+"cape-town-library-hours": {
+"city": "Cape Town",
+"country": "ZA",
+"lat": -33.9249,
+"lon": 18.4241,
+"tz": "Africa/Johannesburg"
+},
+"cardiff-library-hours": {
+"city": "Cardiff",
+"country": "GB",
+"lat": 51.4816,
+"lon": -3.1791,
+"tz": "Europe/London"
+},
+"charlotte-library-hours": {
+"city": "Charlotte",
+"country": "US",
+"lat": 35.2271,
+"lon": -80.8431,
+"region": "NC",
+"tz": "America/New_York"
+},
+"chicago-library-hours": {
+"city": "Chicago",
+"country": "US",
+"lat": 41.8781,
+"lon": -87.6298,
+"region": "IL",
+"tz": "America/Chicago"
+},
+"christchurch-city-library-opening-hours": {
+"city": "Christchurch",
+"country": "NZ",
+"lat": -43.5321,
+"lon": 172.6362,
+"tz": "Pacific/Auckland"
+},
+"christchurch-library-hours": {
+"city": "Christchurch",
+"country": "NZ",
+"lat": -43.5321,
+"lon": 172.6362,
+"tz": "Pacific/Auckland"
+},
+"cincinnati-library-hours": {
+"city": "Cincinnati",
+"country": "US",
+"lat": 39.1031,
+"lon": -84.512,
+"region": "OH",
+"tz": "America/New_York"
+},
+"cleveland-library-hours": {
+"city": "Cleveland",
+"country": "US",
+"lat": 41.4993,
+"lon": -81.6944,
+"region": "OH",
+"tz": "America/New_York"
+},
+"colorado-springs-library-hours": {
+"city": "Colorado Springs",
+"country": "US",
+"lat": 38.8339,
+"lon": -104.8214,
+"region": "CO",
+"tz": "America/Denver"
+},
+"columbus-library-hours": {
+"city": "Columbus",
+"country": "US",
+"lat": 39.9612,
+"lon": -82.9988,
+"region": "OH",
+"tz": "America/New_York"
+},
+"copenhagen-library-hours": {
+"city": "Copenhagen",
+"country": "DK",
+"lat": 55.6761,
+"lon": 12.5683,
+"tz": "Europe/Copenhagen"
+},
+"coventry-library-hours": {
+"city": "Coventry",
+"country": "GB",
+"lat": 52.4068,
+"lon": -1.5197,
+"tz": "Europe/London"
+},
+"dallas-library-hours": {
+"city": "Dallas",
+"country": "US",
+"lat": 32.7767,
+"lon": -96.797,
+"region": "TX",
+"tz": "America/Chicago"
+},
+"darwin-library-hours": {
+"city": "Darwin",
+"country": "AU",
+"lat": -12.4634,
+"lon": 130.8456,
+"region": "NT",
+"tz": "Australia/Darwin"
+},
+"delhi-library-hours": {
+"city": "Delhi",
+"country": "IN",
+"lat": 28.6139,
+"lon": 77.209,
+"tz": "Asia/Kolkata"
+},
+"denver-library-hours": {
+"city": "Denver",
+"country": "US",
+"lat": 39.7392,
+"lon": -104.9903,
+"region": "CO",
+"tz": "America/Denver"
+},
+"derby-library-hours": {
+"city": "Derby",
+"country": "GB",
+"lat": 52.9225,
+"lon": -1.4746,
+"tz": "Europe/London"
+},
+"detroit-library-hours": {
+"city": "Detroit",
+"country": "US",
+"lat": 42.3314,
+"lon": -83.0458,
+"region": "MI",
+"tz": "America/Detroit"
+},
+"dubai-library-hours": {
+"city": "Dubai",
+"country": "AE",
+"lat": 25.2048,
+"lon": 55.2708,
+"tz": "Asia/Dubai"
+},
+"dublin-library-hours": {
+"city": "Dublin",
+"country": "IE",
+"lat": 53.3498,
+"lon": -6.2603,
+"tz": "Europe/Dublin"
+},
+"dunedin-library-hours": {
+"city": "Dunedin",
+"country": "NZ",
+"lat": -45.8788,
+"lon": 170.5028,
+"tz": "Pacific/Auckland"
+},
+"edinburgh-library-hours": {
+"city": "Edinburgh",
+"country": "GB",
+"lat": 55.9533,
+"lon": -3.1883,
+"tz": "Europe/London"
+},
+"el-paso-library-hours": {
+"city": "El Paso",
+"country": "US",
+"lat": 31.7619,
+"lon": -106.485,
+"region": "TX",
+"tz": "America/Denver"
+},
+"fort-worth-library-hours": {
+"city": "Fort Worth",
+"country": "US",
+"lat": 32.7555,
+"lon": -97.3308,
+"region": "TX",
+"tz": "America/Chicago"
+},
+"fresno-library-hours": {
+"city": "Fresno",
+"country": "US",
+"lat": 36.7378,
+"lon": -119.7871,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"geelong-library-hours": {
+"city": "Geelong",
+"country": "AU",
+"lat": -38.1499,
+"lon": 144.3617,
+"region": "VIC",
+"tz": "Australia/Melbourne"
+},
+"glasgow-library-hours": {
+"city": "Glasgow",
+"country": "GB",
+"lat": 55.8642,
+"lon": -4.2518,
+"tz": "Europe/London"
+},
+"gold-coast-library-hours": {
+"city": "Gold Coast",
+"country": "AU",
+"lat": -28.0167,
+"lon": 153.4,
+"region": "QLD",
+"tz": "Australia/Brisbane"
+},
+"hamilton-library-hours": {
+"city": "Hamilton",
+"country": "NZ",
+"lat": -37.787,
+"lon": 175.2793,
+"tz": "Pacific/Auckland"
+},
+"helsinki-library-hours": {
+"city": "Helsinki",
+"country": "FI",
+"lat": 60.1699,
+"lon": 24.9384,
+"tz": "Europe/Helsinki"
+},
+"hobart-library-hours": {
+"city": "Hobart",
+"country": "AU",
+"lat": -42.8821,
+"lon": 147.3272,
+"region": "TAS",
+"tz": "Australia/Hobart"
+},
+"hong-kong-library-hours": {
+"city": "Hong Kong",
+"country": "HK",
+"lat": 22.3193,
+"lon": 114.1694,
+"tz": "Asia/Hong_Kong"
+},
+"honolulu-library-hours": {
+"city": "Honolulu",
+"country": "US",
+"lat": 21.3099,
+"lon": -157.8581,
+"region": "HI",
+"tz": "Pacific/Honolulu"
+},
+"houston-library-hours": {
+"city": "Houston",
+"country": "US",
+"lat": 29.7604,
+"lon": -95.3698,
+"region": "TX",
+"tz": "America/Chicago"
+},
+"indianapolis-library-hours": {
+"city": "Indianapolis",
+"country": "US",
+"lat": 39.7684,
+"lon": -86.1581,
+"region": "IN",
+"tz": "America/Indiana/Indianapolis"
+},
+"jacksonville-library-hours": {
+"city": "Jacksonville",
+"country": "US",
+"lat": 30.3322,
+"lon": -81.6557,
+"region": "FL",
+"tz": "America/New_York"
+},
+"johannesburg-library-hours": {
+"city": "Johannesburg",
+"country": "ZA",
+"lat": -26.2041,
+"lon": 28.0473,
+"tz": "Africa/Johannesburg"
+},
+"kansas-city-library-hours": {
+"city": "Kansas City",
+"country": "US",
+"lat": 39.0997,
+"lon": -94.5786,
+"region": "MO",
+"tz": "America/Chicago"
+},
+"kuala-lumpur-library-hours": {
+"city": "Kuala Lumpur",
+"country": "MY",
+"lat": 3.139,
+"lon": 101.6869,
+"tz": "Asia/Kuala_Lumpur"
+},
+"las-vegas-library-hours": {
+"city": "Las Vegas",
+"country": "US",
+"lat": 36.1699,
+"lon": -115.1398,
+"region": "NV",
+"tz": "America/Los_Angeles"
+},
+"leeds-library-hours": {
+"city": "Leeds",
+"country": "GB",
+"lat": 53.8008,
+"lon": -1.5491,
+"tz": "Europe/London"
+},
+"leicester-library-hours": {
+"city": "Leicester",
+"country": "GB",
+"lat": 52.6369,
+"lon": -1.1398,
+"tz": "Europe/London"
+},
+"lisbon-library-hours": {
+"city": "Lisbon",
+"country": "PT",
+"lat": 38.7223,
+"lon": -9.1393,
+"tz": "Europe/Lisbon"
+},
+"liverpool-library-hours": {
+"city": "Liverpool",
+"country": "GB",
+"lat": 53.4084,
+"lon": -2.9916,
+"tz": "Europe/London"
+},
+"london-library-hours": {
+"city": "London",
+"country": "GB",
+"lat": 51.5074,
+"lon": -0.1278,
+"tz": "Europe/London"
+},
+"long-beach-library-hours": {
+"city": "Long Beach",
+"country": "US",
+"lat": 33.7701,
+"lon": -118.1937,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"los-angeles-library-hours": {
+"city": "Los Angeles",
+"country": "US",
+"lat": 34.0522,
+"lon": -118.2437,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"louisville-library-hours": {
+"city": "Louisville",
+"country": "US",
+"lat": 38.2527,
+"lon": -85.7585,
+"region": "KY",
+"tz": "America/Kentucky/Louisville"
+},
+"madrid-library-hours": {
+"city": "Madrid",
+"country": "ES",
+"lat": 40.4168,
+"lon": -3.7038,
+"tz": "Europe/Madrid"
+},
+"manchester-library-hours": {
+"city": "Manchester",
+"country": "GB",
+"lat": 53.4808,
+"lon": -2.2426,
+"tz": "Europe/London"
+},
+"melbourne-library-hours": {
+"city": "Melbourne",
+"country": "AU",
+"lat": -37.8136,
+"lon": 144.9631,
+"region": "VIC",
+"tz": "Australia/Melbourne"
+},
+"memphis-library-hours": {
+"city": "Memphis",
+"country": "US",
+"lat": 35.1495,
+"lon": -90.049,
+"region": "TN",
+"tz": "America/Chicago"
+},
+"mesa-library-hours": {
+"city": "Mesa",
+"country": "US",
+"lat": 33.4152,
+"lon": -111.8315,
+"region": "AZ",
+"tz": "America/Phoenix"
+},
+"mexico-city-library-hours": {
+"city": "Mexico City",
+"country": "MX",
+"lat": 19.4326,
+"lon": -99.1332,
+"tz": "America/Mexico_City"
+},
+"miami-library-hours": {
+"city": "Miami",
+"country": "US",
+"lat": 25.7617,
+"lon": -80.1918,
+"region": "FL",
+"tz": "America/New_York"
+},
+"miami-university-library-hours": {
+"city": "Oxford",
+"country": "US",
+"lat": 39.507,
+"lon": -84.7452,
+"region": "OH",
+"tz": "America/New_York"
+},
+"middlesbrough-library-hours": {
+"city": "Middlesbrough",
+"country": "GB",
+"lat": 54.5742,
+"lon": -1.235,
+"tz": "Europe/London"
+},
+"milan-library-hours": {
+"city": "Milan",
+"country": "IT",
+"lat": 45.4642,
+"lon": 9.19,
+"tz": "Europe/Rome"
+},
+"milwaukee-library-hours": {
+"city": "Milwaukee",
+"country": "US",
+"lat": 43.0389,
+"lon": -87.9065,
+"region": "WI",
+"tz": "America/Chicago"
+},
+"minneapolis-library-hours": {
+"city": "Minneapolis",
+"country": "US",
+"lat": 44.9778,
+"lon": -93.265,
+"region": "MN",
+"tz": "America/Chicago"
+},
+"montreal-library-hours": {
+"city": "Montreal",
+"country": "CA",
+"lat": 45.5017,
+"lon": -73.5673,
+"region": "QC",
+"tz": "America/Toronto"
+},
+"mumbai-library-hours": {
+"city": "Mumbai",
+"country": "IN",
+"lat": 19.076,
+"lon": 72.8777,
+"tz": "Asia/Kolkata"
+},
+"munich-library-hours": {
+"city": "Munich",
+"country": "DE",
+"lat": 48.1351,
+"lon": 11.582,
+"tz": "Europe/Berlin"
+},
+"napier-library-hours": {
+"city": "Napier",
+"country": "NZ",
+"lat": -39.4928,
+"lon": 176.912,
+"tz": "Pacific/Auckland"
+},
+"nashville-library-hours": {
+"city": "Nashville",
+"country": "US",
+"lat": 36.1627,
+"lon": -86.7816,
+"region": "TN",
+"tz": "America/Chicago"
+},
+"nelson-library-hours": {
+"city": "Nelson",
+"country": "NZ",
+"lat": -41.2706,
+"lon": 173.284,
+"tz": "Pacific/Auckland"
+},
+"new-orleans-library-hours": {
+"city": "New Orleans",
+"country": "US",
+"lat": 29.9511,
+"lon": -90.0715,
+"region": "LA",
+"tz": "America/Chicago"
+},
+"new-york-library-hours": {
+"city": "New York",
+"country": "US",
+"lat": 40.7128,
+"lon": -74.006,
+"region": "NY",
+"tz": "America/New_York"
+},
+"newcastle-library-hours": {
+"city": "Newcastle upon Tyne",
+"country": "GB",
+"lat": 54.9783,
+"lon": -1.6178,
+"tz": "Europe/London"
+},
+"nottingham-library-hours": {
+"city": "Nottingham",
+"country": "GB",
+"lat": 52.9548,
+"lon": -1.1581,
+"tz": "Europe/London"
+},
+"oakland-library-hours": {
+"city": "Oakland",
+"country": "US",
+"lat": 37.8044,
+"lon": -122.2712,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"oklahoma-city-library-hours": {
+"city": "Oklahoma City",
+"country": "US",
+"lat": 35.4676,
+"lon": -97.5164,
+"region": "OK",
+"tz": "America/Chicago"
+},
+"omaha-library-hours": {
+"city": "Omaha",
+"country": "US",
+"lat": 41.2565,
+"lon": -95.9345,
+"region": "NE",
+"tz": "America/Chicago"
+},
+"orlando-library-hours": {
+"city": "Orlando",
+"country": "US",
+"lat": 28.5383,
+"lon": -81.3792,
+"region": "FL",
+"tz": "America/New_York"
+},
+"oslo-library-hours": {
+"city": "Oslo",
+"country": "NO",
+"lat": 59.9139,
+"lon": 10.7522,
+"tz": "Europe/Oslo"
+},
+"ottawa-library-hours": {
+"city": "Ottawa",
+"country": "CA",
+"lat": 45.4215,
+"lon": -75.6972,
+"region": "ON",
+"tz": "America/Toronto"
+},
+"palmerston-north-library-hours": {
+"city": "Palmerston North",
+"country": "NZ",
+"lat": -40.3523,
+"lon": 175.6082,
+"tz": "Pacific/Auckland"
+},
+"paris-library-hours": {
+"city": "Paris",
+"country": "FR",
+"lat": 48.8566,
+"lon": 2.3522,
+"tz": "Europe/Paris"
+},
+"perth-library-hours": {
+"city": "Perth",
+"country": "AU",
+"lat": -31.9505,
+"lon": 115.8605,
+"region": "WA",
+"tz": "Australia/Perth"
+},
+"philadelphia-library-hours": {
+"city": "Philadelphia",
+"country": "US",
+"lat": 39.9526,
+"lon": -75.1652,
+"region": "PA",
+"tz": "America/New_York"
+},
+"phoenix-library-hours": {
+"city": "Phoenix",
+"country": "US",
+"lat": 33.4484,
+"lon": -112.074,
+"region": "AZ",
+"tz": "America/Phoenix"
+},
+"pittsburgh-library-hours": {
+"city": "Pittsburgh",
+"country": "US",
+"lat": 40.4406,
+"lon": -79.9959,
+"region": "PA",
+"tz": "America/New_York"
+},
+"plymouth-library-hours": {
+"city": "Plymouth",
+"country": "GB",
+"lat": 50.3755,
+"lon": -4.1427,
+"tz": "Europe/London"
+},
+"portland-library-hours": {
+"city": "Portland",
+"country": "US",
+"lat": 45.5152,
+"lon": -122.6784,
+"region": "OR",
+"tz": "America/Los_Angeles"
+},
+"portsmouth-library-hours": {
+"city": "Portsmouth",
+"country": "GB",
+"lat": 50.8198,
+"lon": -1.088,
+"tz": "Europe/London"
+},
+"prague-library-hours": {
+"city": "Prague",
+"country": "CZ",
+"lat": 50.0755,
+"lon": 14.4378,
+"tz": "Europe/Prague"
+},
+"queens-library-hours": {
+"city": "Queens",
+"country": "US",
+"lat": 40.7282,
+"lon": -73.7949,
+"region": "NY",
+"tz": "America/New_York"
+},
+"raleigh-library-hours": {
+"city": "Raleigh",
+"country": "US",
+"lat": 35.7796,
+"lon": -78.6382,
+"region": "NC",
+"tz": "America/New_York"
+},
+"reading-library-hours": {
+"city": "Reading",
+"country": "GB",
+"lat": 51.4543,
+"lon": -0.9781,
+"tz": "Europe/London"
+},
+"rochester-library-hours": {
+"city": "Rochester",
+"country": "US",
+"lat": 43.1566,
+"lon": -77.6088,
+"region": "NY",
+"tz": "America/New_York"
+},
+"rome-library-hours": {
+"city": "Rome",
+"country": "IT",
+"lat": 41.9028,
+"lon": 12.4964,
+"tz": "Europe/Rome"
+},
+"rotorua-library-hours": {
+"city": "Rotorua",
+"country": "NZ",
+"lat": -38.1368,
+"lon": 176.2497,
+"tz": "Pacific/Auckland"
+},
+"sacramento-library-hours": {
+"city": "Sacramento",
+"country": "US",
+"lat": 38.5816,
+"lon": -121.4944,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"salt-lake-city-library-hours": {
+"city": "Salt Lake City",
+"country": "US",
+"lat": 40.7608,
+"lon": -111.891,
+"region": "UT",
+"tz": "America/Denver"
+},
+"san-antonio-library-hours": {
+"city": "San Antonio",
+"country": "US",
+"lat": 29.4241,
+"lon": -98.4936,
+"region": "TX",
+"tz": "America/Chicago"
+},
+"san-diego-library-hours": {
+"city": "San Diego",
+"country": "US",
+"lat": 32.7157,
+"lon": -117.1611,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"san-francisco-library-hours": {
+"city": "San Francisco",
+"country": "US",
+"lat": 37.7749,
+"lon": -122.4194,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"san-jose-library-hours": {
+"city": "San Jose",
+"country": "US",
+"lat": 37.3382,
+"lon": -121.8863,
+"region": "CA",
+"tz": "America/Los_Angeles"
+},
+"seattle-library-hours": {
+"city": "Seattle",
+"country": "US",
+"lat": 47.6062,
+"lon": -122.3321,
+"region": "WA",
+"tz": "America/Los_Angeles"
+},
+"seoul-library-hours": {
+"city": "Seoul",
+"country": "KR",
+"lat": 37.5665,
+"lon": 126.978,
+"tz": "Asia/Seoul"
+},
+"sheffield-library-hours": {
+"city": "Sheffield",
+"country": "GB",
+"lat": 53.3811,
+"lon": -1.4701,
+"tz": "Europe/London"
+},
+"singapore-library-hours": {
+"city": "Singapore",
+"country": "SG",
+"lat": 1.3521,
+"lon": 103.8198,
+"tz": "Asia/Singapore"
+},
+"southampton-library-hours": {
+"city": "Southampton",
+"country": "GB",
+"lat": 50.9097,
+"lon": -1.4044,
+"tz": "Europe/London"
+},
+"st-louis-library-hours": {
+"city": "St. Louis",
+"country": "US",
+"lat": 38.627,
+"lon": -90.1994,
+"region": "MO",
+"tz": "America/Chicago"
+},
+"stockholm-library-hours": {
+"city": "Stockholm",
+"country": "SE",
+"lat": 59.3293,
+"lon": 18.0686,
+"tz": "Europe/Stockholm"
+},
+"stoke-on-trent-library-hours": {
+"city": "Stoke-on-Trent",
+"country": "GB",
+"lat": 53.0027,
+"lon": -2.1794,
+"tz": "Europe/London"
+},
+"sunderland-library-hours": {
+"city": "Sunderland",
+"country": "GB",
+"lat": 54.9069,
+"lon": -1.3838,
+"tz": "Europe/London"
+},
+"swansea-library-hours": {
+"city": "Swansea",
+"country": "GB",
+"lat": 51.6214,
+"lon": -3.9436,
+"tz": "Europe/London"
+},
+"sydney-library-hours": {
+"city": "Sydney",
+"country": "AU",
+"lat": -33.8688,
+"lon": 151.2093,
+"region": "NSW",
+"tz": "Australia/Sydney"
+},
+"syracuse-library-hours": {
+"city": "Syracuse",
+"country": "US",
+"lat": 43.0481,
+"lon": -76.1474,
+"region": "NY",
+"tz": "America/New_York"
+},
+"são-paulo-library-hours": {
+"city": "São Paulo",
+"country": "BR",
+"lat": -23.5505,
+"lon": -46.6333,
+"tz": "America/Sao_Paulo"
+},
+"tampa-library-hours": {
+"city": "Tampa",
+"country": "US",
+"lat": 27.9506,
+"lon": -82.4572,
+"region": "FL",
+"tz": "America/New_York"
+},
+"tauranga-library-hours": {
+"city": "Tauranga",
+"country": "NZ",
+"lat": -37.6878,
+"lon": 176.1651,
+"tz": "Pacific/Auckland"
+},
+"tel-aviv-library-hours": {
+"city": "Tel Aviv",
+"country": "IL",
+"lat": 32.0853,
+"lon": 34.7818,
+"tz": "Asia/Jerusalem"
+},
+"tokyo-library-hours": {
+"city": "Tokyo",
+"country": "JP",
+"lat": 35.6762,
+"lon": 139.6503,
+"tz": "Asia/Tokyo"
+},
+"toowoomba-library-hours": {
+"city": "Toowoomba",
+"country": "AU",
+"lat": -27.5598,
+"lon": 151.9507,
+"region": "QLD",
+"tz": "Australia/Brisbane"
+},
+"toronto-library-hours": {
+"city": "Toronto",
+"country": "CA",
+"lat": 43.6532,
+"lon": -79.3832,
+"region": "ON",
+"tz": "America/Toronto"
+},
+"townsville-library-hours": {
+"city": "Townsville",
+"country": "AU",
+"lat": -19.259,
+"lon": 146.8169,
+"region": "QLD",
+"tz": "Australia/Brisbane"
+},
+"tucson-library-hours": {
+"city": "Tucson",
+"country": "US",
+"lat": 32.2226,
+"lon": -110.9747,
+"region": "AZ",
+"tz": "America/Phoenix"
+},
+"tulsa-library-hours": {
+"city": "Tulsa",
+"country": "US",
+"lat": 36.154,
+"lon": -95.9928,
+"region": "OK",
+"tz": "America/Chicago"
+},
+"university-of-miami-library-hours": {
+"city": "Coral Gables",
+"country": "US",
+"lat": 25.7215,
+"lon": -80.2793,
+"region": "FL",
+"tz": "America/New_York"
+},
+"vancouver-library-hours": {
+"city": "Vancouver",
+"country": "CA",
+"lat": 49.2827,
+"lon": -123.1207,
+"region": "BC",
+"tz": "America/Vancouver"
+},
+"vienna-library-hours": {
+"city": "Vienna",
+"country": "AT",
+"lat": 48.2082,
+"lon": 16.3738,
+"tz": "Europe/Vienna"
+},
+"virginia-beach-library-hours": {
+"city": "Virginia Beach",
+"country": "US",
+"lat": 36.8529,
+"lon": -75.978,
+"region": "VA",
+"tz": "America/New_York"
+},
+"warsaw-library-hours": {
+"city": "Warsaw",
+"country": "PL",
+"lat": 52.2297,
+"lon": 21.0122,
+"tz": "Europe/Warsaw"
+},
+"washington-dc-library-hours": {
+"city": "Washington",
+"country": "US",
+"lat": 38.9072,
+"lon": -77.0369,
+"region": "DC",
+"tz": "America/New_York"
+},
+"wellington-library-hours": {
+"city": "Wellington",
+"country": "NZ",
+"lat": -41.2866,
+"lon": 174.7756,
+"tz": "Pacific/Auckland"
+},
+"wichita-library-hours": {
+"city": "Wichita",
+"country": "US",
+"lat": 37.6872,
+"lon": -97.3301,
+"region": "KS",
+"tz": "America/Chicago"
+},
+"wollongong-library-hours": {
+"city": "Wollongong",
+"country": "AU",
+"lat": -34.4278,
+"lon": 150.8931,
+"region": "NSW",
+"tz": "Australia/Sydney"
+},
+"wolverhampton-library-hours": {
+"city": "Wolverhampton",
+"country": "GB",
+"lat": 52.587,
+"lon": -2.1288,
+"tz": "Europe/London"
+},
+"zurich-library-hours": {
+"city": "Zurich",
+"country": "CH",
+"lat": 47.3769,
+"lon": 8.5417,
+"tz": "Europe/Zurich"
+}
+}

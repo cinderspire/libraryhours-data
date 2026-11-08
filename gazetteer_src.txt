@@ -1,0 +1,161 @@
+# slug|City|Region|CC|tz|lat|lon   (city centre; slug = libraryhours24.com page name without -library-hours)
+abu-dhabi|Abu Dhabi||AE|Asia/Dubai|24.4539|54.3773
+adelaide|Adelaide|SA|AU|Australia/Adelaide|-34.9285|138.6007
+albany|Albany|NY|US|America/New_York|42.6526|-73.7562
+albuquerque|Albuquerque|NM|US|America/Denver|35.0844|-106.6504
+amsterdam|Amsterdam||NL|Europe/Amsterdam|52.3676|4.9041
+arlington|Arlington|TX|US|America/Chicago|32.7357|-97.1081
+athens|Athens||GR|Europe/Athens|37.9838|23.7275
+atlanta|Atlanta|GA|US|America/New_York|33.7490|-84.3880
+auckland-city|Auckland||NZ|Pacific/Auckland|-36.8485|174.7633
+auckland-university|Auckland||NZ|Pacific/Auckland|-36.8485|174.7633
+austin|Austin|TX|US|America/Chicago|30.2672|-97.7431
+bakersfield|Bakersfield|CA|US|America/Los_Angeles|35.3733|-119.0187
+baltimore|Baltimore|MD|US|America/New_York|39.2904|-76.6122
+bangkok|Bangkok||TH|Asia/Bangkok|13.7563|100.5018
+barcelona|Barcelona||ES|Europe/Madrid|41.3874|2.1686
+belfast|Belfast||GB|Europe/London|54.5973|-5.9301
+berlin|Berlin||DE|Europe/Berlin|52.5200|13.4050
+birmingham|Birmingham||GB|Europe/London|52.4862|-1.8904
+boston|Boston|MA|US|America/New_York|42.3601|-71.0589
+brisbane|Brisbane|QLD|AU|Australia/Brisbane|-27.4698|153.0251
+bristol|Bristol||GB|Europe/London|51.4545|-2.5879
+brooklyn|Brooklyn|NY|US|America/New_York|40.6782|-73.9442
+brussels|Brussels||BE|Europe/Brussels|50.8503|4.3517
+budapest|Budapest||HU|Europe/Budapest|47.4979|19.0402
+buenos-aires|Buenos Aires||AR|America/Argentina/Buenos_Aires|-34.6037|-58.3816
+buffalo|Buffalo|NY|US|America/New_York|42.8864|-78.8784
+cairns|Cairns|QLD|AU|Australia/Brisbane|-16.9186|145.7781
+cairo|Cairo||EG|Africa/Cairo|30.0444|31.2357
+calgary|Calgary|AB|CA|America/Edmonton|51.0447|-114.0719
+canberra|Canberra|ACT|AU|Australia/Sydney|-35.2809|149.1300
+cape-town|Cape Town||ZA|Africa/Johannesburg|-33.9249|18.4241
+cardiff|Cardiff||GB|Europe/London|51.4816|-3.1791
+charlotte|Charlotte|NC|US|America/New_York|35.2271|-80.8431
+chicago|Chicago|IL|US|America/Chicago|41.8781|-87.6298
+christchurch|Christchurch||NZ|Pacific/Auckland|-43.5321|172.6362
+cincinnati|Cincinnati|OH|US|America/New_York|39.1031|-84.5120
+cleveland|Cleveland|OH|US|America/New_York|41.4993|-81.6944
+colorado-springs|Colorado Springs|CO|US|America/Denver|38.8339|-104.8214
+columbus|Columbus|OH|US|America/New_York|39.9612|-82.9988
+copenhagen|Copenhagen||DK|Europe/Copenhagen|55.6761|12.5683
+coventry|Coventry||GB|Europe/London|52.4068|-1.5197
+dallas|Dallas|TX|US|America/Chicago|32.7767|-96.7970
+darwin|Darwin|NT|AU|Australia/Darwin|-12.4634|130.8456
+delhi|Delhi||IN|Asia/Kolkata|28.6139|77.2090
+denver|Denver|CO|US|America/Denver|39.7392|-104.9903
+derby|Derby||GB|Europe/London|52.9225|-1.4746
+detroit|Detroit|MI|US|America/Detroit|42.3314|-83.0458
+dubai|Dubai||AE|Asia/Dubai|25.2048|55.2708
+dublin|Dublin||IE|Europe/Dublin|53.3498|-6.2603
+dunedin|Dunedin||NZ|Pacific/Auckland|-45.8788|170.5028
+edinburgh|Edinburgh||GB|Europe/London|55.9533|-3.1883
+el-paso|El Paso|TX|US|America/Denver|31.7619|-106.4850
+fort-worth|Fort Worth|TX|US|America/Chicago|32.7555|-97.3308
+fresno|Fresno|CA|US|America/Los_Angeles|36.7378|-119.7871
+geelong|Geelong|VIC|AU|Australia/Melbourne|-38.1499|144.3617
+glasgow|Glasgow||GB|Europe/London|55.8642|-4.2518
+gold-coast|Gold Coast|QLD|AU|Australia/Brisbane|-28.0167|153.4000
+hamilton|Hamilton||NZ|Pacific/Auckland|-37.7870|175.2793
+helsinki|Helsinki||FI|Europe/Helsinki|60.1699|24.9384
+hobart|Hobart|TAS|AU|Australia/Hobart|-42.8821|147.3272
+hong-kong|Hong Kong||HK|Asia/Hong_Kong|22.3193|114.1694
+honolulu|Honolulu|HI|US|Pacific/Honolulu|21.3099|-157.8581
+houston|Houston|TX|US|America/Chicago|29.7604|-95.3698
+indianapolis|Indianapolis|IN|US|America/Indiana/Indianapolis|39.7684|-86.1581
+jacksonville|Jacksonville|FL|US|America/New_York|30.3322|-81.6557
+johannesburg|Johannesburg||ZA|Africa/Johannesburg|-26.2041|28.0473
+kansas-city|Kansas City|MO|US|America/Chicago|39.0997|-94.5786
+kuala-lumpur|Kuala Lumpur||MY|Asia/Kuala_Lumpur|3.1390|101.6869
+las-vegas|Las Vegas|NV|US|America/Los_Angeles|36.1699|-115.1398
+leeds|Leeds||GB|Europe/London|53.8008|-1.5491
+leicester|Leicester||GB|Europe/London|52.6369|-1.1398
+lisbon|Lisbon||PT|Europe/Lisbon|38.7223|-9.1393
+liverpool|Liverpool||GB|Europe/London|53.4084|-2.9916
+london|London||GB|Europe/London|51.5074|-0.1278
+long-beach|Long Beach|CA|US|America/Los_Angeles|33.7701|-118.1937
+los-angeles|Los Angeles|CA|US|America/Los_Angeles|34.0522|-118.2437
+louisville|Louisville|KY|US|America/Kentucky/Louisville|38.2527|-85.7585
+madrid|Madrid||ES|Europe/Madrid|40.4168|-3.7038
+manchester|Manchester||GB|Europe/London|53.4808|-2.2426
+melbourne|Melbourne|VIC|AU|Australia/Melbourne|-37.8136|144.9631
+memphis|Memphis|TN|US|America/Chicago|35.1495|-90.0490
+mesa|Mesa|AZ|US|America/Phoenix|33.4152|-111.8315
+mexico-city|Mexico City||MX|America/Mexico_City|19.4326|-99.1332
+miami|Miami|FL|US|America/New_York|25.7617|-80.1918
+miami-university|Oxford|OH|US|America/New_York|39.5070|-84.7452
+middlesbrough|Middlesbrough||GB|Europe/London|54.5742|-1.2350
+milan|Milan||IT|Europe/Rome|45.4642|9.1900
+milwaukee|Milwaukee|WI|US|America/Chicago|43.0389|-87.9065
+minneapolis|Minneapolis|MN|US|America/Chicago|44.9778|-93.2650
+montreal|Montreal|QC|CA|America/Toronto|45.5017|-73.5673
+mumbai|Mumbai||IN|Asia/Kolkata|19.0760|72.8777
+munich|Munich||DE|Europe/Berlin|48.1351|11.5820
+napier|Napier||NZ|Pacific/Auckland|-39.4928|176.9120
+nashville|Nashville|TN|US|America/Chicago|36.1627|-86.7816
+nelson|Nelson||NZ|Pacific/Auckland|-41.2706|173.2840
+new-orleans|New Orleans|LA|US|America/Chicago|29.9511|-90.0715
+new-york|New York|NY|US|America/New_York|40.7128|-74.0060
+newcastle|Newcastle upon Tyne||GB|Europe/London|54.9783|-1.6178
+nottingham|Nottingham||GB|Europe/London|52.9548|-1.1581
+oakland|Oakland|CA|US|America/Los_Angeles|37.8044|-122.2712
+oklahoma-city|Oklahoma City|OK|US|America/Chicago|35.4676|-97.5164
+omaha|Omaha|NE|US|America/Chicago|41.2565|-95.9345
+orlando|Orlando|FL|US|America/New_York|28.5383|-81.3792
+oslo|Oslo||NO|Europe/Oslo|59.9139|10.7522
+ottawa|Ottawa|ON|CA|America/Toronto|45.4215|-75.6972
+palmerston-north|Palmerston North||NZ|Pacific/Auckland|-40.3523|175.6082
+paris|Paris||FR|Europe/Paris|48.8566|2.3522
+perth|Perth|WA|AU|Australia/Perth|-31.9505|115.8605
+philadelphia|Philadelphia|PA|US|America/New_York|39.9526|-75.1652
+phoenix|Phoenix|AZ|US|America/Phoenix|33.4484|-112.0740
+pittsburgh|Pittsburgh|PA|US|America/New_York|40.4406|-79.9959
+plymouth|Plymouth||GB|Europe/London|50.3755|-4.1427
+portland|Portland|OR|US|America/Los_Angeles|45.5152|-122.6784
+portsmouth|Portsmouth||GB|Europe/London|50.8198|-1.0880
+prague|Prague||CZ|Europe/Prague|50.0755|14.4378
+queens|Queens|NY|US|America/New_York|40.7282|-73.7949
+raleigh|Raleigh|NC|US|America/New_York|35.7796|-78.6382
+reading|Reading||GB|Europe/London|51.4543|-0.9781
+rochester|Rochester|NY|US|America/New_York|43.1566|-77.6088
+rome|Rome||IT|Europe/Rome|41.9028|12.4964
+rotorua|Rotorua||NZ|Pacific/Auckland|-38.1368|176.2497
+sacramento|Sacramento|CA|US|America/Los_Angeles|38.5816|-121.4944
+salt-lake-city|Salt Lake City|UT|US|America/Denver|40.7608|-111.8910
+san-antonio|San Antonio|TX|US|America/Chicago|29.4241|-98.4936
+san-diego|San Diego|CA|US|America/Los_Angeles|32.7157|-117.1611
+san-francisco|San Francisco|CA|US|America/Los_Angeles|37.7749|-122.4194
+san-jose|San Jose|CA|US|America/Los_Angeles|37.3382|-121.8863
+seattle|Seattle|WA|US|America/Los_Angeles|47.6062|-122.3321
+seoul|Seoul||KR|Asia/Seoul|37.5665|126.9780
+sheffield|Sheffield||GB|Europe/London|53.3811|-1.4701
+singapore|Singapore||SG|Asia/Singapore|1.3521|103.8198
+southampton|Southampton||GB|Europe/London|50.9097|-1.4044
+st-louis|St. Louis|MO|US|America/Chicago|38.6270|-90.1994
+stockholm|Stockholm||SE|Europe/Stockholm|59.3293|18.0686
+stoke-on-trent|Stoke-on-Trent||GB|Europe/London|53.0027|-2.1794
+sunderland|Sunderland||GB|Europe/London|54.9069|-1.3838
+swansea|Swansea||GB|Europe/London|51.6214|-3.9436
+sydney|Sydney|NSW|AU|Australia/Sydney|-33.8688|151.2093
+syracuse|Syracuse|NY|US|America/New_York|43.0481|-76.1474
+são-paulo|São Paulo||BR|America/Sao_Paulo|-23.5505|-46.6333
+tampa|Tampa|FL|US|America/New_York|27.9506|-82.4572
+tauranga|Tauranga||NZ|Pacific/Auckland|-37.6878|176.1651
+tel-aviv|Tel Aviv||IL|Asia/Jerusalem|32.0853|34.7818
+tokyo|Tokyo||JP|Asia/Tokyo|35.6762|139.6503
+toowoomba|Toowoomba|QLD|AU|Australia/Brisbane|-27.5598|151.9507
+toronto|Toronto|ON|CA|America/Toronto|43.6532|-79.3832
+townsville|Townsville|QLD|AU|Australia/Brisbane|-19.2590|146.8169
+tucson|Tucson|AZ|US|America/Phoenix|32.2226|-110.9747
+tulsa|Tulsa|OK|US|America/Chicago|36.1540|-95.9928
+university-of-miami|Coral Gables|FL|US|America/New_York|25.7215|-80.2793
+vancouver|Vancouver|BC|CA|America/Vancouver|49.2827|-123.1207
+vienna|Vienna||AT|Europe/Vienna|48.2082|16.3738
+virginia-beach|Virginia Beach|VA|US|America/New_York|36.8529|-75.9780
+warsaw|Warsaw||PL|Europe/Warsaw|52.2297|21.0122
+washington-dc|Washington|DC|US|America/New_York|38.9072|-77.0369
+wellington|Wellington||NZ|Pacific/Auckland|-41.2866|174.7756
+wichita|Wichita|KS|US|America/Chicago|37.6872|-97.3301
+wollongong|Wollongong|NSW|AU|Australia/Sydney|-34.4278|150.8931
+wolverhampton|Wolverhampton||GB|Europe/London|52.5870|-2.1288
+zurich|Zurich||CH|Europe/Zurich|47.3769|8.5417
