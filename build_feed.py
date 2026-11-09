@@ -40,12 +40,13 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import hoursparse as hp  # noqa: E402
 import osm_source as osm  # noqa: E402
+import qlever_source as ql  # noqa: E402
 import regions as rg  # noqa: E402
 import holidays_calc as hc  # noqa: E402
 
 HERE = Path(__file__).resolve().parent
 SITE = "https://libraryhours24.com"
-UA = "LibraryHoursFeedBuilder/1.0 (+https://cinderspire.github.io/libraryhours-data; support@playtools.top)"
+UA = "LibraryHoursFeed/1.0 (+https://cinderspire.github.io/support/libraryhours.html)"
 SCHEMA_VERSION = 1
 
 
@@ -53,7 +54,7 @@ SCHEMA_VERSION = 1
 def http_get(url: str, tries: int = 6) -> str:
     delay = 3.0
     for _ in range(tries):
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
         try:
             with urllib.request.urlopen(req, timeout=40) as r:
                 return r.read().decode("utf-8", "replace")
@@ -284,7 +285,7 @@ def haversine_km(a: tuple[float, float], b: tuple[float, float]) -> float:
 def nominatim(q: str) -> tuple[float, float] | None:
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({"q": q, "format": "json", "limit": 1})
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
         with urllib.request.urlopen(req, timeout=25) as r:
             data = json.loads(r.read().decode())
         if data:
@@ -310,21 +311,37 @@ def compact(rec: dict) -> dict:
     return out
 
 
-def osm_city(t: dict, region: rg.Region) -> str:
+def osm_city(t: dict, label: str) -> str:
     for k in ("addr:city", "addr:town", "addr:village", "addr:municipality", "addr:suburb", "addr:place"):
         v = (t.get(k) or "").strip()
         if v:
             return v
-    return region.label
+    return label
 
 
-def osm_records(elements: list[dict], region: rg.Region, stats: dict, seen: set[str]) -> list[dict]:
-    """Region elements -> feed records, counting every drop reason."""
-    s = stats.setdefault(region.key, {"elements": 0, "no_name": 0, "not_library": 0, "private": 0, "hours_rejected": {}, "kept": 0, "ph_off": 0})
+def osm_records(elements: list[dict], region: "rg.Region | None", stats: dict, seen: set[str],
+                resolver: "ql.Resolver | None" = None) -> list[dict]:
+    """Elements -> feed records, counting every drop reason.  `region` (Overpass path) fixes country and zone
+    defaults; without it `resolver` (QLever / planet path) derives them per element."""
     out: list[dict] = []
+    fallback_stats = None
     for e in elements:
-        s["elements"] += 1
         t = e["t"]
+        if region is not None:
+            cc, label, key = region.cc, region.label, region.key
+        else:
+            r = resolver.resolve(e["lat"], e["lon"], t.get("addr:country")) if resolver else None
+            if r is None:
+                stats.setdefault("??", {"elements": 0, "no_name": 0, "not_library": 0, "private": 0, "hours_rejected": {}, "kept": 0, "ph_off": 0})["elements"] += 1
+                continue
+            cc, tz_planet = r
+            label = ""  # no address city: the app shows the country instead of a fake place
+            key = cc
+        s = stats.setdefault(key, {"elements": 0, "no_name": 0, "not_library": 0, "private": 0, "hours_rejected": {}, "kept": 0, "ph_off": 0})
+        s["elements"] += 1
+        if t.get("_oh_multi"):
+            s["hours_rejected"]["several opening_hours values"] = s["hours_rejected"].get("several opening_hours values", 0) + 1
+            continue
         name = (t.get("name") or t.get("name:en") or "").strip()
         if len(name) < 3:
             s["no_name"] += 1
@@ -358,10 +375,10 @@ def osm_records(elements: list[dict], region: rg.Region, stats: dict, seen: set[
         osm_type = {"n": "node", "w": "way", "r": "relation"}[e["id"][0]]
         rec = {
             "id": lid, "name": name, "type": _classify_osm(t), "h24": h24, "address": addr or None,
-            "city": osm_city(t, region), "region": region.key.split("-", 1)[1] if "-" in region.key else None,
-            "country": region.cc, "lat": round(lat, 5), "lon": round(lon, 5), "gq": "address",
-            "tz": rg.resolve_tz(region, lat, lon), "hours": parsed.week,
-            "phone": clean_phone(t.get("phone") or t.get("contact:phone"), region.cc), "url": web,
+            "city": osm_city(t, label), "region": (region.key.split("-", 1)[1] if region is not None and "-" in region.key else None),
+            "country": cc, "lat": round(lat, 5), "lon": round(lon, 5), "gq": "address",
+            "tz": rg.resolve_tz(region, lat, lon) if region is not None else tz_planet, "hours": parsed.week,
+            "phone": clean_phone(t.get("phone") or t.get("contact:phone"), cc), "url": web,
             "src": f"https://www.openstreetmap.org/{osm_type}/{e['id'][1:]}", "s": "osm",
         }
         if parsed.ph_off and not h24:
@@ -371,14 +388,14 @@ def osm_records(elements: list[dict], region: rg.Region, stats: dict, seen: set[
             rec["_nocity"] = True
         s["kept"] += 1
         out.append(rec)
-    fill_missing_cities(out, region, s)
+    fill_missing_cities(out, region, stats.setdefault("_cities", {}))
     return out
 
 
 _CITY_TAGS = ("addr:city", "addr:town", "addr:village", "addr:municipality", "addr:suburb", "addr:place")
 
 
-def fill_missing_cities(recs: list[dict], region: rg.Region, stats: dict) -> None:
+def fill_missing_cities(recs: list[dict], region: "rg.Region | None", stats: dict) -> None:
     """Libraries without an address city borrow the nearest city of a sibling record (<= 15 km) so they
     group and search under a real place name; otherwise they keep the region label."""
     known: dict[tuple[int, int], list[tuple[float, float, str]]] = {}
@@ -390,9 +407,9 @@ def fill_missing_cities(recs: list[dict], region: rg.Region, stats: dict) -> Non
         if not r.pop("_nocity", False):
             continue
         cx, cy = int(r["lat"] * 10), int(r["lon"] * 10)
-        best, best_d = None, 15.0
-        for dx in (-1, 0, 1):
-            for dy in (-1, 0, 1):
+        best, best_d = None, 50.0
+        for dx in range(-5, 6):
+            for dy in range(-5, 6):
                 for la, lo, city in known.get((cx + dx, cy + dy), ()):
                     d = haversine_km((la, lo), (r["lat"], r["lon"]))
                     if d < best_d:
@@ -430,6 +447,9 @@ def main() -> int:
     ap.add_argument("--geocode", type=int, default=0, help="max new Nominatim lookups this run")
     ap.add_argument("--today", help="YYYY-MM-DD (tests)")
     ap.add_argument("--no-osm", action="store_true", help="site pages only")
+    ap.add_argument("--osm-source", choices=["qlever", "overpass"], default="qlever")
+    ap.add_argument("--qlever-cache", type=Path, default=HERE / "cache" / "qlever" / "planet.json.gz")
+    ap.add_argument("--countries", default="all", help="'all' or comma list of ISO codes to keep from OSM")
     ap.add_argument("--osm-cache", type=Path, default=HERE / "cache" / "osm")
     ap.add_argument("--osm-cache-only", action="store_true", help="never query Overpass, use the cache only")
     ap.add_argument("--osm-max-age-days", type=float, default=3.0, help="cache entries younger than this are not re-queried")
@@ -514,32 +534,46 @@ def main() -> int:
     osm_stats: dict = {}
     osm_run = {"regions": 0, "fetched": 0, "fresh_cache": 0, "stale_cache": 0, "missing": [], "log": [], "dup_of_site": 0}
     if not a.no_osm:
-        wanted = [x for x in rg.all_regions() if a.osm_regions == "all" or x.key in a.osm_regions.split(",") or x.cc in a.osm_regions.split(",")]
-        fetcher = None if a.osm_cache_only else osm.Fetcher(deadline=started + a.max_minutes * 60)
         by_cell: dict = {}
         for l in libs:
             by_cell.setdefault((int(l["lat"] * 50), int(l["lon"] * 50)), []).append((l["lat"], l["lon"], _norm(l["name"])))
-        for region in osm.region_order(a.osm_cache, wanted):
-            els, src = osm.load_region(a.osm_cache, region, fetcher, a.osm_max_age_days, a.osm_cache_only)
-            osm_run["regions"] += 1
+        batches: list[tuple[list[dict], "rg.Region | None"]] = []
+        if a.osm_source == "qlever":
+            els, src = ql.fetch(a.qlever_cache, a.osm_max_age_days, a.osm_cache_only)
+            osm_run["source"] = "qlever"
+            osm_run["qlever"] = src
+            osm_run["regions"] = 1
             if els is None:
-                osm_run["missing"].append(region.key)
-                continue
-            osm_run[{"fetched": "fetched", "fresh-cache": "fresh_cache", "stale-cache": "stale_cache"}[src]] += 1
-            for rec in osm_records(els, region, osm_stats, seen):
-                site_dup = False
+                osm_run["missing"].append("planet")
+            else:
+                osm_run["elements_total"] = len(els)
+                batches.append((els, None))
+        else:
+            wanted = [x for x in rg.all_regions() if a.osm_regions == "all" or x.key in a.osm_regions.split(",") or x.cc in a.osm_regions.split(",")]
+            fetcher = None if a.osm_cache_only else osm.Fetcher(deadline=started + a.max_minutes * 60)
+            for region in osm.region_order(a.osm_cache, wanted):
+                els, src = osm.load_region(a.osm_cache, region, fetcher, a.osm_max_age_days, a.osm_cache_only)
+                osm_run["regions"] += 1
+                if els is None:
+                    osm_run["missing"].append(region.key)
+                    continue
+                osm_run[{"fetched": "fetched", "fresh-cache": "fresh_cache", "stale-cache": "stale_cache"}[src]] += 1
+                batches.append((els, region))
+            if fetcher:
+                osm_run["log"] = fetcher.log[-40:]
+        resolver = ql.Resolver() if a.osm_source == "qlever" else None
+        only = None if a.countries == "all" else set(a.countries.split(","))
+        for els, region in batches:
+            for rec in osm_records(els, region, osm_stats, seen, resolver):
+                if only is not None and rec["country"] not in only:
+                    continue
+                nm = _norm(rec["name"])
                 cx, cy = int(rec["lat"] * 50), int(rec["lon"] * 50)
-                for dx in (-1, 0, 1):
-                    for dy in (-1, 0, 1):
-                        for (la, lo, nn) in by_cell.get((cx + dx, cy + dy), ()):
-                            if nn and haversine_km((la, lo), (rec["lat"], rec["lon"])) < 1.2 and (nn == _norm(rec["name"]) or nn in _norm(rec["name"]) or _norm(rec["name"]) in nn):
-                                site_dup = True
-                if site_dup:
+                if any(nn and haversine_km((la, lo), (rec["lat"], rec["lon"])) < 1.2 and (nn == nm or nn in nm or nm in nn)
+                       for dx in (-1, 0, 1) for dy in (-1, 0, 1) for (la, lo, nn) in by_cell.get((cx + dx, cy + dy), ())):
                     osm_run["dup_of_site"] += 1
                     continue
                 libs.append(rec)
-        if fetcher:
-            osm_run["log"] = fetcher.log[-40:]
 
     libs.sort(key=lambda x: (x["country"], x["city"], x["name"]))
     holidays = {cc: hc.exceptions_for(cc, None, today) for cc in sorted({l["country"] for l in libs if l.get("ph")})}
@@ -562,6 +596,8 @@ def main() -> int:
         c[l.get("s", "site")] += 1
     rates = {}
     for key, s in osm_stats.items():
+        if key.startswith("_"):
+            continue
         cc = key.split("-")[0]
         r = rates.setdefault(cc, {"elements": 0, "kept": 0, "hours_rejected": {}, "no_name": 0, "not_library": 0, "private": 0, "ph_off": 0})
         for k in ("elements", "kept", "no_name", "not_library", "private", "ph_off"):
@@ -638,16 +674,19 @@ def validate_compact(doc: dict) -> list[str]:
             if d in ("closed", "24h"):
                 continue
             for rg_ in d.split(","):
-                if not re.fullmatch(r"\d\d:\d\d-\d\d:\d\d", rg_):
+                m = re.fullmatch(r"(\d\d):(\d\d)-(\d\d):(\d\d)", rg_)
+                if not m:
                     out.append(f"{i}: bad range {rg_}")
+                elif int(m.group(1)) > 23 or int(m.group(2)) > 59 or int(m.group(4)) > 59 or int(m.group(3)) * 60 + int(m.group(4)) > 1440:
+                    out.append(f"{i}: impossible time {rg_}")
             try:
                 ok = osm.ranges_ok(d)
             except Exception:  # noqa: BLE001
                 ok = False
             if not ok:
                 out.append(f"{i}: bad or overlapping ranges {d}")
-        if not l.get("name") or not l.get("country") or not l.get("city"):
-            out.append(f"{i}: missing name/city/country")
+        if not l.get("name") or not l.get("country"):
+            out.append(f"{i}: missing name/country")
         if l.get("ph") and l["country"] not in doc.get("holidays", {}):
             out.append(f"{i}: ph flag without holiday table for {l['country']}")
     for cc, ex in doc.get("holidays", {}).items():

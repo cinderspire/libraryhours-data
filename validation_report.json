@@ -1,0 +1,6087 @@
+{
+ "generated": "2026-11-09",
+ "pages": 181,
+ "raw_site_records": 420,
+ "published": 24912,
+ "by_source": {
+  "site": 54,
+  "osm": 24858
+ },
+ "countries": [
+  "AD",
+  "AE",
+  "AG",
+  "AL",
+  "AM",
+  "AR",
+  "AS",
+  "AT",
+  "AU",
+  "AX",
+  "AZ",
+  "BA",
+  "BB",
+  "BD",
+  "BE",
+  "BF",
+  "BG",
+  "BH",
+  "BI",
+  "BJ",
+  "BM",
+  "BO",
+  "BR",
+  "BS",
+  "BT",
+  "BW",
+  "BY",
+  "BZ",
+  "CA",
+  "CD",
+  "CG",
+  "CH",
+  "CI",
+  "CK",
+  "CL",
+  "CM",
+  "CN",
+  "CO",
+  "CR",
+  "CU",
+  "CY",
+  "CZ",
+  "DE",
+  "DK",
+  "DO",
+  "DZ",
+  "EC",
+  "EE",
+  "EG",
+  "ES",
+  "ET",
+  "FI",
+  "FJ",
+  "FK",
+  "FO",
+  "FR",
+  "GA",
+  "GB",
+  "GE",
+  "GF",
+  "GG",
+  "GH",
+  "GL",
+  "GP",
+  "GR",
+  "GT",
+  "GU",
+  "GY",
+  "HK",
+  "HR",
+  "HT",
+  "HU",
+  "ID",
+  "IE",
+  "IL",
+  "IM",
+  "IN",
+  "IQ",
+  "IR",
+  "IS",
+  "IT",
+  "JE",
+  "JM",
+  "JO",
+  "JP",
+  "KE",
+  "KG",
+  "KH",
+  "KI",
+  "KM",
+  "KN",
+  "KR",
+  "KZ",
+  "LA",
+  "LB",
+  "LC",
+  "LI",
+  "LK",
+  "LR",
+  "LS",
+  "LT",
+  "LU",
+  "LV",
+  "LY",
+  "MA",
+  "MC",
+  "MD",
+  "ME",
+  "MG",
+  "MK",
+  "ML",
+  "MM",
+  "MN",
+  "MO",
+  "MQ",
+  "MR",
+  "MT",
+  "MU",
+  "MV",
+  "MW",
+  "MX",
+  "MY",
+  "NA",
+  "NE",
+  "NF",
+  "NG",
+  "NI",
+  "NL",
+  "NO",
+  "NP",
+  "NZ",
+  "PA",
+  "PE",
+  "PF",
+  "PH",
+  "PK",
+  "PL",
+  "PM",
+  "PR",
+  "PS",
+  "PT",
+  "PW",
+  "PY",
+  "QA",
+  "RE",
+  "RO",
+  "RS",
+  "RU",
+  "RW",
+  "SA",
+  "SB",
+  "SC",
+  "SD",
+  "SE",
+  "SG",
+  "SI",
+  "SJ",
+  "SK",
+  "SN",
+  "SO",
+  "SR",
+  "SV",
+  "SY",
+  "TD",
+  "TG",
+  "TH",
+  "TJ",
+  "TN",
+  "TR",
+  "TT",
+  "TV",
+  "TW",
+  "TZ",
+  "UA",
+  "UG",
+  "US",
+  "UY",
+  "UZ",
+  "VC",
+  "VE",
+  "VN",
+  "VU",
+  "YE",
+  "YT",
+  "ZA",
+  "ZM",
+  "ZW"
+ ],
+ "by_country": {
+  "AD": {
+   "site": 0,
+   "osm": 1
+  },
+  "AE": {
+   "site": 2,
+   "osm": 6
+  },
+  "AG": {
+   "site": 0,
+   "osm": 1
+  },
+  "AL": {
+   "site": 0,
+   "osm": 6
+  },
+  "AM": {
+   "site": 0,
+   "osm": 14
+  },
+  "AR": {
+   "site": 1,
+   "osm": 139
+  },
+  "AS": {
+   "site": 0,
+   "osm": 1
+  },
+  "AT": {
+   "site": 0,
+   "osm": 337
+  },
+  "AU": {
+   "site": 2,
+   "osm": 409
+  },
+  "AX": {
+   "site": 0,
+   "osm": 5
+  },
+  "AZ": {
+   "site": 0,
+   "osm": 29
+  },
+  "BA": {
+   "site": 0,
+   "osm": 15
+  },
+  "BB": {
+   "site": 0,
+   "osm": 1
+  },
+  "BD": {
+   "site": 0,
+   "osm": 16
+  },
+  "BE": {
+   "site": 0,
+   "osm": 304
+  },
+  "BF": {
+   "site": 0,
+   "osm": 2
+  },
+  "BG": {
+   "site": 0,
+   "osm": 25
+  },
+  "BH": {
+   "site": 0,
+   "osm": 1
+  },
+  "BI": {
+   "site": 0,
+   "osm": 1
+  },
+  "BJ": {
+   "site": 0,
+   "osm": 1
+  },
+  "BM": {
+   "site": 0,
+   "osm": 1
+  },
+  "BO": {
+   "site": 0,
+   "osm": 27
+  },
+  "BR": {
+   "site": 1,
+   "osm": 263
+  },
+  "BS": {
+   "site": 0,
+   "osm": 1
+  },
+  "BT": {
+   "site": 0,
+   "osm": 1
+  },
+  "BW": {
+   "site": 0,
+   "osm": 4
+  },
+  "BY": {
+   "site": 0,
+   "osm": 189
+  },
+  "BZ": {
+   "site": 0,
+   "osm": 1
+  },
+  "CA": {
+   "site": 4,
+   "osm": 788
+  },
+  "CD": {
+   "site": 0,
+   "osm": 7
+  },
+  "CG": {
+   "site": 0,
+   "osm": 1
+  },
+  "CH": {
+   "site": 0,
+   "osm": 452
+  },
+  "CI": {
+   "site": 0,
+   "osm": 4
+  },
+  "CK": {
+   "site": 0,
+   "osm": 1
+  },
+  "CL": {
+   "site": 0,
+   "osm": 39
+  },
+  "CM": {
+   "site": 0,
+   "osm": 2
+  },
+  "CN": {
+   "site": 0,
+   "osm": 170
+  },
+  "CO": {
+   "site": 0,
+   "osm": 78
+  },
+  "CR": {
+   "site": 0,
+   "osm": 15
+  },
+  "CU": {
+   "site": 0,
+   "osm": 33
+  },
+  "CY": {
+   "site": 0,
+   "osm": 9
+  },
+  "CZ": {
+   "site": 0,
+   "osm": 404
+  },
+  "DE": {
+   "site": 0,
+   "osm": 3436
+  },
+  "DK": {
+   "site": 0,
+   "osm": 165
+  },
+  "DO": {
+   "site": 0,
+   "osm": 3
+  },
+  "DZ": {
+   "site": 0,
+   "osm": 44
+  },
+  "EC": {
+   "site": 0,
+   "osm": 25
+  },
+  "EE": {
+   "site": 0,
+   "osm": 58
+  },
+  "EG": {
+   "site": 1,
+   "osm": 7
+  },
+  "ES": {
+   "site": 0,
+   "osm": 594
+  },
+  "ET": {
+   "site": 0,
+   "osm": 7
+  },
+  "FI": {
+   "site": 0,
+   "osm": 235
+  },
+  "FJ": {
+   "site": 0,
+   "osm": 2
+  },
+  "FK": {
+   "site": 0,
+   "osm": 1
+  },
+  "FO": {
+   "site": 0,
+   "osm": 2
+  },
+  "FR": {
+   "site": 0,
+   "osm": 2791
+  },
+  "GA": {
+   "site": 0,
+   "osm": 1
+  },
+  "GB": {
+   "site": 5,
+   "osm": 1199
+  },
+  "GE": {
+   "site": 0,
+   "osm": 13
+  },
+  "GF": {
+   "site": 0,
+   "osm": 8
+  },
+  "GG": {
+   "site": 0,
+   "osm": 1
+  },
+  "GH": {
+   "site": 0,
+   "osm": 17
+  },
+  "GL": {
+   "site": 0,
+   "osm": 1
+  },
+  "GP": {
+   "site": 0,
+   "osm": 5
+  },
+  "GR": {
+   "site": 0,
+   "osm": 49
+  },
+  "GT": {
+   "site": 0,
+   "osm": 6
+  },
+  "GU": {
+   "site": 0,
+   "osm": 1
+  },
+  "GY": {
+   "site": 0,
+   "osm": 2
+  },
+  "HK": {
+   "site": 0,
+   "osm": 9
+  },
+  "HR": {
+   "site": 0,
+   "osm": 44
+  },
+  "HT": {
+   "site": 0,
+   "osm": 12
+  },
+  "HU": {
+   "site": 0,
+   "osm": 166
+  },
+  "ID": {
+   "site": 0,
+   "osm": 114
+  },
+  "IE": {
+   "site": 0,
+   "osm": 115
+  },
+  "IL": {
+   "site": 1,
+   "osm": 13
+  },
+  "IM": {
+   "site": 0,
+   "osm": 1
+  },
+  "IN": {
+   "site": 0,
+   "osm": 209
+  },
+  "IQ": {
+   "site": 0,
+   "osm": 92
+  },
+  "IR": {
+   "site": 0,
+   "osm": 70
+  },
+  "IS": {
+   "site": 0,
+   "osm": 19
+  },
+  "IT": {
+   "site": 0,
+   "osm": 1242
+  },
+  "JE": {
+   "site": 0,
+   "osm": 1
+  },
+  "JM": {
+   "site": 0,
+   "osm": 1
+  },
+  "JO": {
+   "site": 0,
+   "osm": 4
+  },
+  "JP": {
+   "site": 0,
+   "osm": 206
+  },
+  "KE": {
+   "site": 0,
+   "osm": 9
+  },
+  "KG": {
+   "site": 0,
+   "osm": 8
+  },
+  "KH": {
+   "site": 0,
+   "osm": 1
+  },
+  "KI": {
+   "site": 0,
+   "osm": 1
+  },
+  "KM": {
+   "site": 0,
+   "osm": 1
+  },
+  "KN": {
+   "site": 0,
+   "osm": 2
+  },
+  "KR": {
+   "site": 0,
+   "osm": 144
+  },
+  "KZ": {
+   "site": 0,
+   "osm": 29
+  },
+  "LA": {
+   "site": 0,
+   "osm": 3
+  },
+  "LB": {
+   "site": 0,
+   "osm": 1
+  },
+  "LC": {
+   "site": 0,
+   "osm": 2
+  },
+  "LI": {
+   "site": 0,
+   "osm": 2
+  },
+  "LK": {
+   "site": 0,
+   "osm": 13
+  },
+  "LR": {
+   "site": 0,
+   "osm": 2
+  },
+  "LS": {
+   "site": 0,
+   "osm": 1
+  },
+  "LT": {
+   "site": 0,
+   "osm": 106
+  },
+  "LU": {
+   "site": 0,
+   "osm": 8
+  },
+  "LV": {
+   "site": 0,
+   "osm": 57
+  },
+  "LY": {
+   "site": 0,
+   "osm": 17
+  },
+  "MA": {
+   "site": 0,
+   "osm": 7
+  },
+  "MC": {
+   "site": 0,
+   "osm": 1
+  },
+  "MD": {
+   "site": 0,
+   "osm": 22
+  },
+  "ME": {
+   "site": 0,
+   "osm": 5
+  },
+  "MG": {
+   "site": 0,
+   "osm": 2
+  },
+  "MK": {
+   "site": 0,
+   "osm": 5
+  },
+  "ML": {
+   "site": 0,
+   "osm": 2
+  },
+  "MM": {
+   "site": 0,
+   "osm": 7
+  },
+  "MN": {
+   "site": 0,
+   "osm": 3
+  },
+  "MO": {
+   "site": 0,
+   "osm": 11
+  },
+  "MQ": {
+   "site": 0,
+   "osm": 4
+  },
+  "MR": {
+   "site": 0,
+   "osm": 1
+  },
+  "MT": {
+   "site": 0,
+   "osm": 1
+  },
+  "MU": {
+   "site": 0,
+   "osm": 1
+  },
+  "MV": {
+   "site": 0,
+   "osm": 1
+  },
+  "MW": {
+   "site": 0,
+   "osm": 1
+  },
+  "MX": {
+   "site": 1,
+   "osm": 86
+  },
+  "MY": {
+   "site": 0,
+   "osm": 37
+  },
+  "NA": {
+   "site": 0,
+   "osm": 5
+  },
+  "NE": {
+   "site": 0,
+   "osm": 1
+  },
+  "NF": {
+   "site": 0,
+   "osm": 1
+  },
+  "NG": {
+   "site": 0,
+   "osm": 5
+  },
+  "NI": {
+   "site": 0,
+   "osm": 3
+  },
+  "NL": {
+   "site": 0,
+   "osm": 365
+  },
+  "NO": {
+   "site": 0,
+   "osm": 106
+  },
+  "NP": {
+   "site": 0,
+   "osm": 24
+  },
+  "NZ": {
+   "site": 1,
+   "osm": 172
+  },
+  "PA": {
+   "site": 0,
+   "osm": 4
+  },
+  "PE": {
+   "site": 0,
+   "osm": 11
+  },
+  "PF": {
+   "site": 0,
+   "osm": 2
+  },
+  "PH": {
+   "site": 0,
+   "osm": 39
+  },
+  "PK": {
+   "site": 0,
+   "osm": 14
+  },
+  "PL": {
+   "site": 0,
+   "osm": 1167
+  },
+  "PM": {
+   "site": 0,
+   "osm": 1
+  },
+  "PR": {
+   "site": 0,
+   "osm": 8
+  },
+  "PS": {
+   "site": 0,
+   "osm": 16
+  },
+  "PT": {
+   "site": 0,
+   "osm": 141
+  },
+  "PW": {
+   "site": 0,
+   "osm": 1
+  },
+  "PY": {
+   "site": 0,
+   "osm": 6
+  },
+  "QA": {
+   "site": 0,
+   "osm": 2
+  },
+  "RE": {
+   "site": 0,
+   "osm": 18
+  },
+  "RO": {
+   "site": 0,
+   "osm": 72
+  },
+  "RS": {
+   "site": 0,
+   "osm": 53
+  },
+  "RU": {
+   "site": 0,
+   "osm": 1397
+  },
+  "RW": {
+   "site": 0,
+   "osm": 1
+  },
+  "SA": {
+   "site": 0,
+   "osm": 8
+  },
+  "SB": {
+   "site": 0,
+   "osm": 1
+  },
+  "SC": {
+   "site": 0,
+   "osm": 1
+  },
+  "SD": {
+   "site": 0,
+   "osm": 2
+  },
+  "SE": {
+   "site": 0,
+   "osm": 266
+  },
+  "SG": {
+   "site": 1,
+   "osm": 20
+  },
+  "SI": {
+   "site": 0,
+   "osm": 78
+  },
+  "SJ": {
+   "site": 0,
+   "osm": 1
+  },
+  "SK": {
+   "site": 0,
+   "osm": 224
+  },
+  "SN": {
+   "site": 0,
+   "osm": 2
+  },
+  "SO": {
+   "site": 0,
+   "osm": 1
+  },
+  "SR": {
+   "site": 0,
+   "osm": 1
+  },
+  "SV": {
+   "site": 0,
+   "osm": 4
+  },
+  "SY": {
+   "site": 0,
+   "osm": 6
+  },
+  "TD": {
+   "site": 0,
+   "osm": 2
+  },
+  "TG": {
+   "site": 0,
+   "osm": 5
+  },
+  "TH": {
+   "site": 0,
+   "osm": 30
+  },
+  "TJ": {
+   "site": 0,
+   "osm": 3
+  },
+  "TN": {
+   "site": 0,
+   "osm": 1
+  },
+  "TR": {
+   "site": 0,
+   "osm": 150
+  },
+  "TT": {
+   "site": 0,
+   "osm": 1
+  },
+  "TV": {
+   "site": 0,
+   "osm": 1
+  },
+  "TW": {
+   "site": 0,
+   "osm": 145
+  },
+  "TZ": {
+   "site": 0,
+   "osm": 13
+  },
+  "UA": {
+   "site": 0,
+   "osm": 306
+  },
+  "UG": {
+   "site": 0,
+   "osm": 4
+  },
+  "US": {
+   "site": 32,
+   "osm": 4457
+  },
+  "UY": {
+   "site": 0,
+   "osm": 5
+  },
+  "UZ": {
+   "site": 0,
+   "osm": 10
+  },
+  "VC": {
+   "site": 0,
+   "osm": 1
+  },
+  "VE": {
+   "site": 0,
+   "osm": 6
+  },
+  "VN": {
+   "site": 0,
+   "osm": 6
+  },
+  "VU": {
+   "site": 0,
+   "osm": 1
+  },
+  "YE": {
+   "site": 0,
+   "osm": 4
+  },
+  "YT": {
+   "site": 0,
+   "osm": 5
+  },
+  "ZA": {
+   "site": 2,
+   "osm": 44
+  },
+  "ZM": {
+   "site": 0,
+   "osm": 1
+  },
+  "ZW": {
+   "site": 0,
+   "osm": 8
+  }
+ },
+ "cities": 8571,
+ "street_level": 24903,
+ "city_level_coords": 9,
+ "validation_problems": [],
+ "osm_run": {
+  "regions": 1,
+  "fetched": 0,
+  "fresh_cache": 0,
+  "stale_cache": 0,
+  "missing": [],
+  "log": [],
+  "dup_of_site": 36,
+  "source": "qlever",
+  "qlever": "fresh-cache",
+  "elements_total": 28939
+ },
+ "osm_parse_rates_by_country": {
+  "AU": {
+   "elements": 439,
+   "kept": 411,
+   "hours_rejected": {
+    "unsupported syntax": 10,
+    "PH with opening hours": 3,
+    "overlapping ranges": 3,
+    "school-holiday rule": 2
+   },
+   "no_name": 2,
+   "not_library": 5,
+   "private": 3,
+   "ph_off": 66,
+   "parse_rate": 0.958
+  },
+  "GB": {
+   "elements": 1304,
+   "kept": 1203,
+   "hours_rejected": {
+    "unsupported syntax": 55,
+    "overlapping ranges": 9,
+    "PH with opening hours": 3,
+    "school-holiday rule": 1,
+    "too long": 1
+   },
+   "no_name": 5,
+   "not_library": 5,
+   "private": 22,
+   "ph_off": 121,
+   "parse_rate": 0.946
+  },
+  "IT": {
+   "elements": 1390,
+   "kept": 1242,
+   "hours_rejected": {
+    "unsupported syntax": 90,
+    "never open": 10,
+    "overlapping ranges": 4,
+    "no weekday rule": 1
+   },
+   "no_name": 24,
+   "not_library": 0,
+   "private": 19,
+   "ph_off": 120,
+   "parse_rate": 0.922
+  },
+  "RU": {
+   "elements": 1780,
+   "kept": 1397,
+   "hours_rejected": {
+    "unsupported syntax": 302,
+    "too long": 6,
+    "PH with opening hours": 3,
+    "overlapping ranges": 3,
+    "never open": 1
+   },
+   "no_name": 64,
+   "not_library": 0,
+   "private": 4,
+   "ph_off": 8,
+   "parse_rate": 0.816
+  },
+  "FR": {
+   "elements": 3531,
+   "kept": 2791,
+   "hours_rejected": {
+    "school-holiday rule": 73,
+    "unsupported syntax": 281,
+    "too long": 5,
+    "PH with opening hours": 4,
+    "overlapping ranges": 10,
+    "never open": 6
+   },
+   "no_name": 328,
+   "not_library": 20,
+   "private": 13,
+   "ph_off": 110,
+   "parse_rate": 0.88
+  },
+  "DE": {
+   "elements": 3953,
+   "kept": 3436,
+   "hours_rejected": {
+    "school-holiday rule": 60,
+    "unsupported syntax": 323,
+    "never open": 15,
+    "PH with opening hours": 20,
+    "overlapping ranges": 5,
+    "too long": 1
+   },
+   "no_name": 59,
+   "not_library": 11,
+   "private": 23,
+   "ph_off": 536,
+   "parse_rate": 0.89
+  },
+  "IE": {
+   "elements": 125,
+   "kept": 115,
+   "hours_rejected": {
+    "unsupported syntax": 8
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 12,
+   "parse_rate": 0.935
+  },
+  "MX": {
+   "elements": 100,
+   "kept": 86,
+   "hours_rejected": {
+    "unsupported syntax": 5,
+    "PH with opening hours": 1
+   },
+   "no_name": 5,
+   "not_library": 0,
+   "private": 3,
+   "ph_off": 1,
+   "parse_rate": 0.935
+  },
+  "CU": {
+   "elements": 39,
+   "kept": 33,
+   "hours_rejected": {
+    "unsupported syntax": 3
+   },
+   "no_name": 3,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 2,
+   "parse_rate": 0.917
+  },
+  "CH": {
+   "elements": 541,
+   "kept": 452,
+   "hours_rejected": {
+    "unsupported syntax": 56,
+    "school-holiday rule": 15,
+    "PH with opening hours": 1,
+    "overlapping ranges": 3
+   },
+   "no_name": 5,
+   "not_library": 3,
+   "private": 6,
+   "ph_off": 56,
+   "parse_rate": 0.858
+  },
+  "JP": {
+   "elements": 318,
+   "kept": 206,
+   "hours_rejected": {
+    "unsupported syntax": 62,
+    "PH with opening hours": 48,
+    "overlapping ranges": 1
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 11,
+   "parse_rate": 0.65
+  },
+  "HU": {
+   "elements": 248,
+   "kept": 166,
+   "hours_rejected": {
+    "unsupported syntax": 62,
+    "never open": 1,
+    "too long": 1
+   },
+   "no_name": 17,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 19,
+   "parse_rate": 0.722
+  },
+  "TR": {
+   "elements": 164,
+   "kept": 150,
+   "hours_rejected": {
+    "unsupported syntax": 9
+   },
+   "no_name": 3,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 4,
+   "parse_rate": 0.943
+  },
+  "IR": {
+   "elements": 81,
+   "kept": 70,
+   "hours_rejected": {
+    "unsupported syntax": 11
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.864
+  },
+  "PL": {
+   "elements": 1286,
+   "kept": 1167,
+   "hours_rejected": {
+    "unsupported syntax": 80,
+    "school-holiday rule": 7,
+    "never open": 3,
+    "overlapping ranges": 1
+   },
+   "no_name": 27,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 93,
+   "parse_rate": 0.928
+  },
+  "AT": {
+   "elements": 402,
+   "kept": 337,
+   "hours_rejected": {
+    "overlapping ranges": 3,
+    "unsupported syntax": 43,
+    "school-holiday rule": 4,
+    "too long": 1
+   },
+   "no_name": 7,
+   "not_library": 5,
+   "private": 2,
+   "ph_off": 36,
+   "parse_rate": 0.869
+  },
+  "LV": {
+   "elements": 74,
+   "kept": 57,
+   "hours_rejected": {
+    "unsupported syntax": 14
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 1,
+   "parse_rate": 0.803
+  },
+  "CN": {
+   "elements": 202,
+   "kept": 170,
+   "hours_rejected": {
+    "unsupported syntax": 20,
+    "PH with opening hours": 7
+   },
+   "no_name": 4,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 3,
+   "parse_rate": 0.863
+  },
+  "RO": {
+   "elements": 87,
+   "kept": 72,
+   "hours_rejected": {
+    "never open": 3,
+    "unsupported syntax": 7
+   },
+   "no_name": 3,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 2,
+   "parse_rate": 0.878
+  },
+  "CA": {
+   "elements": 849,
+   "kept": 794,
+   "hours_rejected": {
+    "unsupported syntax": 45,
+    "never open": 2,
+    "overlapping ranges": 2
+   },
+   "no_name": 4,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 50,
+   "parse_rate": 0.942
+  },
+  "PK": {
+   "elements": 15,
+   "kept": 14,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.933
+  },
+  "SK": {
+   "elements": 267,
+   "kept": 224,
+   "hours_rejected": {
+    "unsupported syntax": 29,
+    "never open": 2
+   },
+   "no_name": 11,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 57,
+   "parse_rate": 0.878
+  },
+  "BE": {
+   "elements": 345,
+   "kept": 304,
+   "hours_rejected": {
+    "unsupported syntax": 22,
+    "overlapping ranges": 1,
+    "PH with opening hours": 1
+   },
+   "no_name": 14,
+   "not_library": 1,
+   "private": 2,
+   "ph_off": 49,
+   "parse_rate": 0.927
+  },
+  "SE": {
+   "elements": 295,
+   "kept": 266,
+   "hours_rejected": {
+    "unsupported syntax": 22,
+    "too long": 1
+   },
+   "no_name": 6,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 7,
+   "parse_rate": 0.92
+  },
+  "TW": {
+   "elements": 187,
+   "kept": 145,
+   "hours_rejected": {
+    "unsupported syntax": 38,
+    "overlapping ranges": 1,
+    "PH with opening hours": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 22,
+   "parse_rate": 0.78
+  },
+  "CZ": {
+   "elements": 518,
+   "kept": 404,
+   "hours_rejected": {
+    "unsupported syntax": 22,
+    "too long": 1,
+    "overlapping ranges": 1
+   },
+   "no_name": 87,
+   "not_library": 0,
+   "private": 3,
+   "ph_off": 12,
+   "parse_rate": 0.944
+  },
+  "BR": {
+   "elements": 288,
+   "kept": 264,
+   "hours_rejected": {
+    "unsupported syntax": 10,
+    "school-holiday rule": 1,
+    "PH with opening hours": 1,
+    "never open": 1,
+    "overlapping ranges": 1
+   },
+   "no_name": 8,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 39,
+   "parse_rate": 0.95
+  },
+  "IQ": {
+   "elements": 96,
+   "kept": 92,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 0,
+   "parse_rate": 0.979
+  },
+  "LT": {
+   "elements": 111,
+   "kept": 106,
+   "hours_rejected": {
+    "unsupported syntax": 4
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 6,
+   "parse_rate": 0.964
+  },
+  "BG": {
+   "elements": 28,
+   "kept": 25,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.926
+  },
+  "HR": {
+   "elements": 58,
+   "kept": 44,
+   "hours_rejected": {
+    "unsupported syntax": 13
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 1,
+   "parse_rate": 0.772
+  },
+  "EC": {
+   "elements": 29,
+   "kept": 25,
+   "hours_rejected": {
+    "unsupported syntax": 1,
+    "PH with opening hours": 1
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.926
+  },
+  "US": {
+   "elements": 4864,
+   "kept": 4476,
+   "hours_rejected": {
+    "unsupported syntax": 298,
+    "PH with opening hours": 5,
+    "overlapping ranges": 8,
+    "never open": 19,
+    "school-holiday rule": 4,
+    "too long": 2
+   },
+   "no_name": 11,
+   "not_library": 15,
+   "private": 26,
+   "ph_off": 387,
+   "parse_rate": 0.93
+  },
+  "NZ": {
+   "elements": 181,
+   "kept": 172,
+   "hours_rejected": {
+    "unsupported syntax": 4,
+    "overlapping ranges": 1
+   },
+   "no_name": 2,
+   "not_library": 1,
+   "private": 1,
+   "ph_off": 20,
+   "parse_rate": 0.972
+  },
+  "PY": {
+   "elements": 7,
+   "kept": 6,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.857
+  },
+  "CO": {
+   "elements": 92,
+   "kept": 78,
+   "hours_rejected": {
+    "unsupported syntax": 9,
+    "overlapping ranges": 1,
+    "PH with opening hours": 1
+   },
+   "no_name": 3,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 4,
+   "parse_rate": 0.876
+  },
+  "TH": {
+   "elements": 43,
+   "kept": 30,
+   "hours_rejected": {
+    "unsupported syntax": 5,
+    "PH with opening hours": 3,
+    "overlapping ranges": 1
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 2,
+   "parse_rate": 0.769
+  },
+  "AR": {
+   "elements": 148,
+   "kept": 140,
+   "hours_rejected": {
+    "school-holiday rule": 1,
+    "overlapping ranges": 1,
+    "unsupported syntax": 6
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 2,
+   "parse_rate": 0.946
+  },
+  "KG": {
+   "elements": 9,
+   "kept": 8,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.889
+  },
+  "FI": {
+   "elements": 267,
+   "kept": 235,
+   "hours_rejected": {
+    "unsupported syntax": 21,
+    "PH with opening hours": 3,
+    "never open": 4
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 5,
+   "parse_rate": 0.894
+  },
+  "ES": {
+   "elements": 726,
+   "kept": 594,
+   "hours_rejected": {
+    "unsupported syntax": 96,
+    "school-holiday rule": 1,
+    "never open": 9,
+    "PH with opening hours": 4,
+    "too long": 1
+   },
+   "no_name": 18,
+   "not_library": 0,
+   "private": 3,
+   "ph_off": 33,
+   "parse_rate": 0.843
+  },
+  "EE": {
+   "elements": 64,
+   "kept": 58,
+   "hours_rejected": {
+    "unsupported syntax": 4
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.935
+  },
+  "SG": {
+   "elements": 25,
+   "kept": 21,
+   "hours_rejected": {
+    "unsupported syntax": 3
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 5,
+   "parse_rate": 0.875
+  },
+  "PE": {
+   "elements": 14,
+   "kept": 11,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 0,
+   "parse_rate": 0.846
+  },
+  "KZ": {
+   "elements": 34,
+   "kept": 29,
+   "hours_rejected": {},
+   "no_name": 5,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "RS": {
+   "elements": 61,
+   "kept": 53,
+   "hours_rejected": {
+    "unsupported syntax": 7
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.883
+  },
+  "ID": {
+   "elements": 125,
+   "kept": 114,
+   "hours_rejected": {
+    "unsupported syntax": 9
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 3,
+   "parse_rate": 0.927
+  },
+  "ZM": {
+   "elements": 2,
+   "kept": 1,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.5
+  },
+  "BY": {
+   "elements": 239,
+   "kept": 189,
+   "hours_rejected": {
+    "unsupported syntax": 35
+   },
+   "no_name": 11,
+   "not_library": 0,
+   "private": 4,
+   "ph_off": 3,
+   "parse_rate": 0.844
+  },
+  "IN": {
+   "elements": 314,
+   "kept": 209,
+   "hours_rejected": {
+    "unsupported syntax": 84,
+    "PH with opening hours": 8,
+    "overlapping ranges": 1
+   },
+   "no_name": 7,
+   "not_library": 0,
+   "private": 5,
+   "ph_off": 23,
+   "parse_rate": 0.692
+  },
+  "UA": {
+   "elements": 359,
+   "kept": 306,
+   "hours_rejected": {
+    "unsupported syntax": 33,
+    "never open": 1,
+    "overlapping ranges": 1
+   },
+   "no_name": 16,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 7,
+   "parse_rate": 0.897
+  },
+  "AM": {
+   "elements": 16,
+   "kept": 14,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.933
+  },
+  "CL": {
+   "elements": 42,
+   "kept": 39,
+   "hours_rejected": {
+    "unsupported syntax": 3
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.929
+  },
+  "KR": {
+   "elements": 180,
+   "kept": 144,
+   "hours_rejected": {
+    "unsupported syntax": 33,
+    "PH with opening hours": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 18,
+   "parse_rate": 0.804
+  },
+  "GR": {
+   "elements": 60,
+   "kept": 49,
+   "hours_rejected": {
+    "unsupported syntax": 10
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 3,
+   "parse_rate": 0.831
+  },
+  "GH": {
+   "elements": 18,
+   "kept": 17,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.944
+  },
+  "DK": {
+   "elements": 185,
+   "kept": 165,
+   "hours_rejected": {
+    "unsupported syntax": 12,
+    "PH with opening hours": 5,
+    "overlapping ranges": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 6,
+   "parse_rate": 0.897
+  },
+  "CD": {
+   "elements": 7,
+   "kept": 7,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TZ": {
+   "elements": 18,
+   "kept": 13,
+   "hours_rejected": {
+    "PH with opening hours": 1
+   },
+   "no_name": 3,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 1,
+   "parse_rate": 0.929
+  },
+  "NO": {
+   "elements": 130,
+   "kept": 106,
+   "hours_rejected": {
+    "unsupported syntax": 21,
+    "overlapping ranges": 3
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 8,
+   "parse_rate": 0.815
+  },
+  "PA": {
+   "elements": 5,
+   "kept": 4,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.8
+  },
+  "SI": {
+   "elements": 84,
+   "kept": 78,
+   "hours_rejected": {
+    "unsupported syntax": 4
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 2,
+   "parse_rate": 0.951
+  },
+  "CR": {
+   "elements": 16,
+   "kept": 15,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.938
+  },
+  "ZA": {
+   "elements": 50,
+   "kept": 46,
+   "hours_rejected": {
+    "unsupported syntax": 3
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.939
+  },
+  "NL": {
+   "elements": 396,
+   "kept": 365,
+   "hours_rejected": {
+    "unsupported syntax": 21,
+    "never open": 1,
+    "PH with opening hours": 1,
+    "school-holiday rule": 6,
+    "overlapping ranges": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 38,
+   "parse_rate": 0.924
+  },
+  "BO": {
+   "elements": 45,
+   "kept": 27,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 17,
+   "ph_off": 0,
+   "parse_rate": 0.964
+  },
+  "ZW": {
+   "elements": 9,
+   "kept": 8,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.889
+  },
+  "ME": {
+   "elements": 5,
+   "kept": 5,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "DZ": {
+   "elements": 51,
+   "kept": 44,
+   "hours_rejected": {
+    "unsupported syntax": 3
+   },
+   "no_name": 4,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 2,
+   "parse_rate": 0.936
+  },
+  "EG": {
+   "elements": 10,
+   "kept": 7,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.778
+  },
+  "HK": {
+   "elements": 25,
+   "kept": 9,
+   "hours_rejected": {
+    "PH with opening hours": 5,
+    "unsupported syntax": 6,
+    "too long": 3
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 0,
+   "parse_rate": 0.391
+  },
+  "VA": {
+   "elements": 1,
+   "kept": 0,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 0,
+   "parse_rate": null
+  },
+  "GE": {
+   "elements": 20,
+   "kept": 13,
+   "hours_rejected": {},
+   "no_name": 5,
+   "not_library": 0,
+   "private": 2,
+   "ph_off": 2,
+   "parse_rate": 1.0
+  },
+  "MG": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "FO": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "IS": {
+   "elements": 21,
+   "kept": 19,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.905
+  },
+  "NP": {
+   "elements": 27,
+   "kept": 24,
+   "hours_rejected": {
+    "unsupported syntax": 2,
+    "overlapping ranges": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.889
+  },
+  "LY": {
+   "elements": 17,
+   "kept": 17,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "GG": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "NG": {
+   "elements": 6,
+   "kept": 5,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BF": {
+   "elements": 3,
+   "kept": 2,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.667
+  },
+  "RE": {
+   "elements": 18,
+   "kept": 18,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "PT": {
+   "elements": 173,
+   "kept": 141,
+   "hours_rejected": {
+    "unsupported syntax": 27
+   },
+   "no_name": 4,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 10,
+   "parse_rate": 0.839
+  },
+  "MY": {
+   "elements": 41,
+   "kept": 37,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 8,
+   "parse_rate": 0.974
+  },
+  "SV": {
+   "elements": 5,
+   "kept": 4,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.8
+  },
+  "HT": {
+   "elements": 14,
+   "kept": 12,
+   "hours_rejected": {
+    "PH with opening hours": 1
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.923
+  },
+  "KE": {
+   "elements": 9,
+   "kept": 9,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "PF": {
+   "elements": 3,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MA": {
+   "elements": 8,
+   "kept": 7,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "GP": {
+   "elements": 6,
+   "kept": 5,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 1,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "LK": {
+   "elements": 17,
+   "kept": 13,
+   "hours_rejected": {
+    "unsupported syntax": 3,
+    "PH with opening hours": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.765
+  },
+  "GF": {
+   "elements": 8,
+   "kept": 8,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TM": {
+   "elements": 2,
+   "kept": 0,
+   "hours_rejected": {},
+   "no_name": 2,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": null
+  },
+  "MN": {
+   "elements": 3,
+   "kept": 3,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TN": {
+   "elements": 2,
+   "kept": 1,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.5
+  },
+  "YE": {
+   "elements": 4,
+   "kept": 4,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MK": {
+   "elements": 6,
+   "kept": 5,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.833
+  },
+  "CI": {
+   "elements": 4,
+   "kept": 4,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "PH": {
+   "elements": 43,
+   "kept": 39,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 3,
+   "ph_off": 2,
+   "parse_rate": 1.0
+  },
+  "AZ": {
+   "elements": 33,
+   "kept": 29,
+   "hours_rejected": {
+    "unsupported syntax": 3
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.906
+  },
+  "BD": {
+   "elements": 20,
+   "kept": 16,
+   "hours_rejected": {
+    "PH with opening hours": 1,
+    "unsupported syntax": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 2,
+   "parse_rate": 0.842
+  },
+  "CY": {
+   "elements": 12,
+   "kept": 9,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.818
+  },
+  "SB": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BA": {
+   "elements": 15,
+   "kept": 15,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MV": {
+   "elements": 2,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MD": {
+   "elements": 27,
+   "kept": 22,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 4,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.957
+  },
+  "AL": {
+   "elements": 7,
+   "kept": 6,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.857
+  },
+  "SY": {
+   "elements": 6,
+   "kept": 6,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TG": {
+   "elements": 5,
+   "kept": 5,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "VN": {
+   "elements": 8,
+   "kept": 6,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.857
+  },
+  "JO": {
+   "elements": 5,
+   "kept": 4,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "MR": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "LS": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "GT": {
+   "elements": 6,
+   "kept": 6,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "PS": {
+   "elements": 19,
+   "kept": 16,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 2,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.941
+  },
+  "LU": {
+   "elements": 11,
+   "kept": 8,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 1,
+   "not_library": 1,
+   "private": 0,
+   "ph_off": 2,
+   "parse_rate": 0.889
+  },
+  "MC": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "AE": {
+   "elements": 6,
+   "kept": 6,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "GL": {
+   "elements": 3,
+   "kept": 1,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.5
+  },
+  "PR": {
+   "elements": 9,
+   "kept": 8,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.889
+  },
+  "MU": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "IL": {
+   "elements": 15,
+   "kept": 13,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.929
+  },
+  "LA": {
+   "elements": 3,
+   "kept": 3,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BM": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "PM": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TJ": {
+   "elements": 4,
+   "kept": 3,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SN": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TD": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "??": {
+   "elements": 1,
+   "kept": 0,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.0
+  },
+  "LC": {
+   "elements": 4,
+   "kept": 2,
+   "hours_rejected": {
+    "overlapping ranges": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.5
+  },
+  "BI": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "NI": {
+   "elements": 3,
+   "kept": 3,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SA": {
+   "elements": 9,
+   "kept": 8,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.889
+  },
+  "AD": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "VE": {
+   "elements": 9,
+   "kept": 6,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.75
+  },
+  "BJ": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "UG": {
+   "elements": 5,
+   "kept": 4,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.8
+  },
+  "LI": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MO": {
+   "elements": 11,
+   "kept": 11,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "NA": {
+   "elements": 6,
+   "kept": 5,
+   "hours_rejected": {
+    "overlapping ranges": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.833
+  },
+  "OM": {
+   "elements": 1,
+   "kept": 0,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.0
+  },
+  "CM": {
+   "elements": 3,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BW": {
+   "elements": 5,
+   "kept": 4,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "LB": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MM": {
+   "elements": 9,
+   "kept": 7,
+   "hours_rejected": {
+    "unsupported syntax": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.778
+  },
+  "SJ": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "UY": {
+   "elements": 6,
+   "kept": 5,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.833
+  },
+  "BT": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SD": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "UZ": {
+   "elements": 11,
+   "kept": 10,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MQ": {
+   "elements": 4,
+   "kept": 4,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "AX": {
+   "elements": 5,
+   "kept": 5,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "DO": {
+   "elements": 3,
+   "kept": 3,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "QA": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SO": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "YT": {
+   "elements": 5,
+   "kept": 5,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "FK": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TV": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "ML": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "GY": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "VU": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "KN": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "GU": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "AG": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "LR": {
+   "elements": 4,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 2,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "NE": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "ET": {
+   "elements": 7,
+   "kept": 7,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "MT": {
+   "elements": 4,
+   "kept": 1,
+   "hours_rejected": {
+    "unsupported syntax": 2,
+    "too long": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 0.25
+  },
+  "CG": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "AF": {
+   "elements": 1,
+   "kept": 0,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.0
+  },
+  "MW": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "KH": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "JE": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "KI": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BS": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "NF": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 1,
+   "parse_rate": 1.0
+  },
+  "JM": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BZ": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BB": {
+   "elements": 3,
+   "kept": 1,
+   "hours_rejected": {
+    "never open": 2
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.333
+  },
+  "KM": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "IM": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "AS": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "PW": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SR": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "FJ": {
+   "elements": 2,
+   "kept": 2,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "TT": {
+   "elements": 2,
+   "kept": 1,
+   "hours_rejected": {
+    "unsupported syntax": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.5
+  },
+  "RW": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "VI": {
+   "elements": 1,
+   "kept": 0,
+   "hours_rejected": {
+    "never open": 1
+   },
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 0.0
+  },
+  "GA": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "CK": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SH": {
+   "elements": 1,
+   "kept": 0,
+   "hours_rejected": {},
+   "no_name": 1,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": null
+  },
+  "VC": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "SC": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  },
+  "BH": {
+   "elements": 1,
+   "kept": 1,
+   "hours_rejected": {},
+   "no_name": 0,
+   "not_library": 0,
+   "private": 0,
+   "ph_off": 0,
+   "parse_rate": 1.0
+  }
+ },
+ "bytes_json": 8562784,
+ "bytes_snapshot_gz": 1591638,
+ "snapshot_dropped": 0,
+ "minutes": 0.0,
+ "rejected_site_detail": [
+  {
+   "name": "Abu Dhabi Library",
+   "page": "abu-dhabi-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Adelaide Libraries",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Central Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Public Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Central Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Neighborhood Library - North Branch",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide District Library - Uptown Branch",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Main Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide District Library - East Branch",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Community Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Branch Library - South Branch",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Public Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide City Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Community Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Business Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Adelaide - Academic Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Adelaide Business Library",
+   "page": "adelaide-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Albany Library",
+   "page": "albany-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Albuquerque Bernalillo County Library",
+   "page": "albuquerque-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Openbare Bibliotheek Amsterdam",
+   "page": "amsterdam-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Arlington Library",
+   "page": "arlington-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Athens Library",
+   "page": "athens-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "National Library of Greece",
+   "page": "athens-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Auckland City Library",
+   "page": "auckland-city-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Auckland University Library",
+   "page": "auckland-university-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Bakersfield Library",
+   "page": "bakersfield-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bangkok Library",
+   "page": "bangkok-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bangkok City Library",
+   "page": "bangkok-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Barcelona Library",
+   "page": "barcelona-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Biblioteca de Catalunya",
+   "page": "barcelona-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Belfast Libraries",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Northern Ireland Regional Library",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Belfast Neighborhood Library - Central Branch",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Northern Ireland Regional Library",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Belfast - College Library",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Belfast Reference Library",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Belfast - University Library",
+   "page": "belfast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Berlin Library",
+   "page": "berlin-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Birmingham Library",
+   "page": "birmingham-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Brisbane Libraries",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Queensland Regional Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Queensland Regional Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane Branch Library - Central Branch",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane Community Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane Local Library - Central Branch",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane City Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane Main Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane City Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Brisbane - University Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Brisbane - Campus Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Brisbane - University Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Brisbane - Academic Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Brisbane - Academic Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Brisbane - College Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brisbane Law Library",
+   "page": "brisbane-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bristol Libraries",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bristol Local Library - East Branch",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bristol Community Library",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bristol Branch Library - South Branch",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bristol City Library",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bristol Business Library",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Bristol - Academic Library",
+   "page": "bristol-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Brussels Library",
+   "page": "brussels-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "KBR Royal Library of Belgium",
+   "page": "brussels-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Budapest Library",
+   "page": "budapest-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Fővárosi Szabó Ervin Könyvtár",
+   "page": "budapest-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Buenos Aires Library",
+   "page": "buenos-aires-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Buffalo Library",
+   "page": "buffalo-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Cairns Libraries",
+   "page": "cairns-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cairns Public Library",
+   "page": "cairns-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cairns Local Library - East Branch",
+   "page": "cairns-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cairns Neighborhood Library - East Branch",
+   "page": "cairns-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cairo Library",
+   "page": "cairo-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Calgary Library",
+   "page": "calgary-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Canberra Libraries",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Canberra Central Library",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Canberra Community Library",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Canberra City Library",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Canberra Main Library",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Canberra Public Library",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Canberra - Campus Library",
+   "page": "canberra-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cape Town Library",
+   "page": "cape-town-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Cardiff Libraries",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cardiff City Library",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cardiff Public Library",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Cardiff - Campus Library",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Cardiff - Campus Library",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Cardiff - Campus Library",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Cardiff Business Library",
+   "page": "cardiff-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Christchurch Libraries",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Christchurch Community Library",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Christchurch Local Library - East Branch",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Christchurch Main Library",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Christchurch - College Library",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Christchurch Reference Library",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Christchurch Law Library",
+   "page": "christchurch-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Colorado Springs Library",
+   "page": "colorado-springs-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Copenhagen Library",
+   "page": "copenhagen-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Copenhagen Central Library",
+   "page": "copenhagen-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Coventry Libraries",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Coventry Local Library - East Branch",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Coventry Branch Library - Downtown Branch",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Coventry Community Library",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Coventry Public Library",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Coventry - Academic Library",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Coventry - College Library",
+   "page": "coventry-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Darwin Libraries",
+   "page": "darwin-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Darwin Main Library",
+   "page": "darwin-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Darwin Central Library",
+   "page": "darwin-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Darwin - Campus Library",
+   "page": "darwin-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Delhi Library",
+   "page": "delhi-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Delhi Public Library",
+   "page": "delhi-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Derby Libraries",
+   "page": "derby-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Derby City Library",
+   "page": "derby-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Derby - Academic Library",
+   "page": "derby-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Derby - Campus Library",
+   "page": "derby-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Derby - Campus Library",
+   "page": "derby-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Derby Reference Library",
+   "page": "derby-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Derby - Campus Library",
+   "page": "derby-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Detroit Library",
+   "page": "detroit-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Dublin City Libraries",
+   "page": "dublin-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Dunedin Libraries",
+   "page": "dunedin-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Dunedin City Library",
+   "page": "dunedin-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Dunedin District Library - North Branch",
+   "page": "dunedin-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Dunedin - Academic Library",
+   "page": "dunedin-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Edinburgh Libraries",
+   "page": "edinburgh-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "El Paso Library",
+   "page": "el-paso-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Fort Worth Public Library",
+   "page": "fort-worth-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Fresno Library",
+   "page": "fresno-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Geelong Libraries",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Geelong Community Library",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Geelong Community Library",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Geelong City Library",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Geelong Public Library",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Geelong Central Library",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Geelong - College Library",
+   "page": "geelong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Glasgow Library",
+   "page": "glasgow-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Gold Coast Libraries",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast City Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast Community Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast Main Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast District Library - Uptown Branch",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast Community Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast Central Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast District Library - North Branch",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast Local Library - Downtown Branch",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Gold Coast Business Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Gold Coast - University Library",
+   "page": "gold-coast-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hamilton Libraries",
+   "page": "hamilton-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hamilton Branch Library - North Branch",
+   "page": "hamilton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hamilton Main Library",
+   "page": "hamilton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Hamilton - University Library",
+   "page": "hamilton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Harvard University Library",
+   "page": "harvard-university-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "no street address"
+   ]
+  },
+  {
+   "name": "Helsinki Library",
+   "page": "helsinki-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Helsinki City Library — Oodi",
+   "page": "helsinki-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hobart Libraries",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hobart Public Library",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hobart Community Library",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hobart City Library",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Hobart - Academic Library",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Hobart - Campus Library",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hobart Business Library",
+   "page": "hobart-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hong Kong Library",
+   "page": "hong-kong-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Hong Kong Central Library",
+   "page": "hong-kong-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Honolulu Library",
+   "page": "honolulu-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Johannesburg Library",
+   "page": "johannesburg-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Kuala Lumpur Library",
+   "page": "kuala-lumpur-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Perpustakaan Kuala Lumpur",
+   "page": "kuala-lumpur-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Leeds Library",
+   "page": "leeds-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Leicester Libraries",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Leicester Community Library",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Leicester Neighborhood Library - North Branch",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Leicester Main Library",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Leicester District Library - Uptown Branch",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Leicester - College Library",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Leicester - College Library",
+   "page": "leicester-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Lisbon Library",
+   "page": "lisbon-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Biblioteca Nacional de Portugal",
+   "page": "lisbon-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Liverpool Library",
+   "page": "liverpool-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Long Beach Library",
+   "page": "long-beach-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Madrid Library",
+   "page": "madrid-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Manchester Library",
+   "page": "manchester-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "State Library Victoria",
+   "page": "melbourne-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Mesa Library",
+   "page": "mesa-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Mexico City Library",
+   "page": "mexico-city-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Miami University Library",
+   "page": "miami-university-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Middlesbrough Libraries",
+   "page": "middlesbrough-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Middlesbrough Public Library",
+   "page": "middlesbrough-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Middlesbrough - Academic Library",
+   "page": "middlesbrough-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Middlesbrough Business Library",
+   "page": "middlesbrough-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Milan Library",
+   "page": "milan-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Biblioteca Nazionale Braidense",
+   "page": "milan-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Milwaukee Public Library",
+   "page": "milwaukee-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Mumbai Library",
+   "page": "mumbai-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Asiatic Society of Mumbai",
+   "page": "mumbai-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Munich Library",
+   "page": "munich-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stadtbibliothek München",
+   "page": "munich-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Napier Libraries",
+   "page": "napier-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Napier Public Library",
+   "page": "napier-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Napier Public Library",
+   "page": "napier-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Napier Central Library",
+   "page": "napier-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nelson Libraries",
+   "page": "nelson-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nelson Community Library",
+   "page": "nelson-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nelson District Library - South Branch",
+   "page": "nelson-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nelson Neighborhood Library - East Branch",
+   "page": "nelson-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "New Orleans Library",
+   "page": "new-orleans-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Libraries",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Law Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Newcastle - Campus Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle City Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Branch Library - Central Branch",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "England State Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Main Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Newcastle - College Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Main Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Main Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Community Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Main Library",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Newcastle Branch Library - South Branch",
+   "page": "newcastle-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nottingham Libraries",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nottingham Community Library",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nottingham Central Library",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nottingham Central Library",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Nottingham Community Library",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Nottingham - College Library",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Nottingham - College Library",
+   "page": "nottingham-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Oakland Library",
+   "page": "oakland-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Metropolitan Library System",
+   "page": "oklahoma-city-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Omaha Public Library",
+   "page": "omaha-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Orlando Library",
+   "page": "orlando-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Oslo Library",
+   "page": "oslo-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Deichman Oslo Central Library",
+   "page": "oslo-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Ottawa Library",
+   "page": "ottawa-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Palmerston North Libraries",
+   "page": "palmerston-north-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "National Library of New Zealand",
+   "page": "palmerston-north-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Palmerston North District Library - Uptown Branch",
+   "page": "palmerston-north-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Palmerston North Public Library",
+   "page": "palmerston-north-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Paris Library",
+   "page": "paris-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Perth Library",
+   "page": "perth-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Plymouth Libraries",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Plymouth Main Library",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Plymouth Community Library",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "England Regional Library",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Plymouth Main Library",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Plymouth Neighborhood Library - North Branch",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Plymouth - University Library",
+   "page": "plymouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Portsmouth Libraries",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Portsmouth Branch Library - North Branch",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Portsmouth Central Library",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Portsmouth Public Library",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Portsmouth - University Library",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Portsmouth - College Library",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Portsmouth - University Library",
+   "page": "portsmouth-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Prague Library",
+   "page": "prague-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Municipal Library of Prague",
+   "page": "prague-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wake County Public Libraries",
+   "page": "raleigh-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Reading Libraries",
+   "page": "reading-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "National Library of UK",
+   "page": "reading-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Reading Community Library",
+   "page": "reading-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Reading Neighborhood Library - Central Branch",
+   "page": "reading-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Reading City Library",
+   "page": "reading-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Reading - Academic Library",
+   "page": "reading-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Reading Reference Library",
+   "page": "reading-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Rochester Library",
+   "page": "rochester-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Rome Library",
+   "page": "rome-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Rotorua Libraries",
+   "page": "rotorua-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Rotorua Main Library",
+   "page": "rotorua-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Bay of Plenty State Library",
+   "page": "rotorua-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Rotorua Main Library",
+   "page": "rotorua-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "San Jose Public Library",
+   "page": "san-jose-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Seoul Library",
+   "page": "seoul-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Seoul Metropolitan Library",
+   "page": "seoul-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Libraries",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Community Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Main Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Main Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Central Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield District Library - West Branch",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Public Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Central Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Central Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Public Library",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sheffield Branch Library - East Branch",
+   "page": "sheffield-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Southampton Libraries",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Southampton Branch Library - South Branch",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Southampton Community Library",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Southampton Community Library",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Southampton Law Library",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Southampton Law Library",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Southampton - Academic Library",
+   "page": "southampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stockholm Library",
+   "page": "stockholm-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stockholm Public Library",
+   "page": "stockholm-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent Libraries",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent District Library - Central Branch",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent Central Library",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent Public Library",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent Branch Library - North Branch",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent Central Library",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Stoke-on-Trent Law Library",
+   "page": "stoke-on-trent-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sunderland Libraries",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sunderland Main Library",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sunderland Central Library",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sunderland Branch Library - Uptown Branch",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Sunderland - College Library",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Sunderland - Campus Library",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Sunderland Reference Library",
+   "page": "sunderland-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Swansea Libraries",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Swansea Neighborhood Library - Central Branch",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Swansea Community Library",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Swansea Community Library",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Swansea City Library",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Swansea - Campus Library",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Swansea Business Library",
+   "page": "swansea-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Syracuse Library",
+   "page": "syracuse-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "São Paulo Library",
+   "page": "são-paulo-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Tauranga Libraries",
+   "page": "tauranga-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Tauranga Main Library",
+   "page": "tauranga-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Tauranga Community Library",
+   "page": "tauranga-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Tauranga - Academic Library",
+   "page": "tauranga-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Tel Aviv Library",
+   "page": "tel-aviv-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Tokyo Library",
+   "page": "tokyo-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Toowoomba Libraries",
+   "page": "toowoomba-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Toowoomba Public Library",
+   "page": "toowoomba-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Toowoomba - University Library",
+   "page": "toowoomba-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Toowoomba - Campus Library",
+   "page": "toowoomba-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Townsville Libraries",
+   "page": "townsville-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Townsville Local Library - Central Branch",
+   "page": "townsville-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Townsville Main Library",
+   "page": "townsville-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Townsville Law Library",
+   "page": "townsville-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Pima County Public Library",
+   "page": "tucson-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Tulsa Library",
+   "page": "tulsa-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Vancouver Public Library",
+   "page": "vancouver-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Vienna Library",
+   "page": "vienna-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wienbibliothek im Rathaus",
+   "page": "vienna-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Virginia Beach Library",
+   "page": "virginia-beach-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Warsaw Library",
+   "page": "warsaw-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Warsaw Public Library",
+   "page": "warsaw-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Washington Libraries",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Washington City Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "District of Columbia Provincial Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Washington Public Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Washington Community Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Washington Public Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Washington Branch Library - South Branch",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Washington - Campus Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Washington - University Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Washington - Academic Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Washington - College Library",
+   "page": "washington-library-hours",
+   "reasons": [
+    "no gazetteer entry for page slug",
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wellington Library",
+   "page": "wellington-library-hours",
+   "reasons": [
+    "no street address"
+   ]
+  },
+  {
+   "name": "Wichita Library",
+   "page": "wichita-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong Libraries",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong Central Library",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong City Library",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong Local Library - Central Branch",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong District Library - North Branch",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong Main Library",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wollongong Public Library",
+   "page": "wollongong-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wolverhampton Libraries",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wolverhampton Central Library",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wolverhampton Neighborhood Library - Downtown Branch",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wolverhampton Main Library",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wolverhampton Central Library",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Wolverhampton District Library - South Branch",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "University of Wolverhampton - Academic Library",
+   "page": "wolverhampton-library-hours",
+   "reasons": [
+    "generated card set (inconsistent address/postcode/phone)",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Zurich Library",
+   "page": "zurich-library-hours",
+   "reasons": [
+    "no street address",
+    "weekly pattern is the site-wide template default"
+   ]
+  },
+  {
+   "name": "Zentralbibliothek Zürich",
+   "page": "zurich-library-hours",
+   "reasons": [
+    "weekly pattern is the site-wide template default"
+   ]
+  }
+ ]
+}

@@ -25,12 +25,12 @@ import regions as rg
 
 ENDPOINTS = [
     "https://overpass-api.de/api/interpreter",
-    "https://overpass.kumi.systems/api/interpreter",
-    "https://overpass.private.coffee/api/interpreter",
+    "https://lz4.overpass-api.de/api/interpreter",
+    "https://z.overpass-api.de/api/interpreter",
 ]
-UA = "LibraryHoursFeedBuilder/1.1 (+https://cinderspire.github.io/libraryhours-data; support@playtools.top)"
+UA = "LibraryHoursFeed/1.0 (+https://cinderspire.github.io/support/libraryhours.html)"
 _DAYS = {"Mo": 0, "Tu": 1, "We": 2, "Th": 3, "Fr": 4, "Sa": 5, "Su": 6}
-_T = r"(?:[01]?\d|2[0-4]):[0-5]\d"
+_T = r"(?:(?:[01]?\d|2[0-3]):[0-5]\d|24:00)"
 _DAYTOK = r"(?:Mo|Tu|We|Th|Fr|Sa|Su|PH|SH)"
 _SEL = rf"{_DAYTOK}(?:-(?:Mo|Tu|We|Th|Fr|Sa|Su))?"
 
@@ -205,7 +205,7 @@ class Fetcher:
 
     @staticmethod
     def _post(url: str, body: bytes, timeout: int) -> bytes:
-        req = urllib.request.Request(url, data=body, headers={"User-Agent": UA})
+        req = urllib.request.Request(url, data=body, headers={"User-Agent": UA, "Accept": "application/json"})
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return r.read()
 
@@ -255,6 +255,7 @@ def load_region(cache_dir: Path, region: rg.Region, fetcher: Fetcher | None, max
         els = fetcher.fetch(region)
         if els is not None:
             f.write_text(json.dumps({"fetched": now, "elements": els}, ensure_ascii=False, separators=(",", ":")), "utf-8")
+            fetcher.sleep(3.0)  # etiquette: one query at a time, with a pause between regions
             return els, "fetched"
     if cached:
         return cached["elements"], "stale-cache"

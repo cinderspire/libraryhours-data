@@ -153,6 +153,7 @@ import gzip
 import tempfile
 import time
 
+import qlever_source as ql
 import regions as rg
 
 
@@ -186,6 +187,11 @@ class OsmGrammar2(unittest.TestCase):
     def test_midnight_and_24h_forms(self):
         self.assertEqual(osm.parse_hours("Mo-Sa 08:00-02:00")[0].week[0], "08:00-02:00")
         self.assertEqual(osm.parse_hours("Mo-Su 00:00-24:00")[0].week, ["24h"] * 7)
+
+    def test_impossible_times_rejected(self):
+        for s in ("Mo-Fr 24:30-19:00", "Mo-Fr 09:00-25:00", "Mo-Fr 09:60-17:00"):
+            self.assertIsNone(osm.parse_hours(s)[0], s)
+        self.assertIsNotNone(osm.parse_hours("Mo-Fr 08:00-24:00")[0])
 
     def test_ranges_ok(self):
         self.assertTrue(osm.ranges_ok("09:00-12:00,13:00-17:00"))
@@ -320,7 +326,7 @@ class OsmRecords(unittest.TestCase):
         ]
         recs = {r["name"]: r for r in b.osm_records(els, reg, {}, set())}
         self.assertEqual(recs["Beta Bibliothek"]["city"], "Zürich")
-        self.assertEqual(recs["Gamma Bibliothek"]["city"], "Switzerland")  # nothing within 15 km: region label
+        self.assertEqual(recs["Gamma Bibliothek"]["city"], "Switzerland")  # Overpass path: nothing within 50 km keeps the region label
         self.assertNotIn("_nocity", recs["Beta Bibliothek"])
 
     def test_compact(self):
@@ -349,6 +355,77 @@ class OsmRecords(unittest.TestCase):
         problems = b.validate_compact(doc)
         self.assertTrue(any("overlapping" in p for p in problems))
         self.assertTrue(any("ph flag" in p for p in problems))
+
+
+class QLever(unittest.TestCase):
+    def test_centroid(self):
+        self.assertEqual(ql.centroid("POINT(8.54 47.37)"), (47.37, 8.54))
+        lat, lon = ql.centroid("POLYGON((8.0 47.0,9.0 47.0,9.0 48.0,8.0 48.0,8.0 47.0))")
+        self.assertAlmostEqual(lat, 47.5)
+        self.assertAlmostEqual(lon, 8.5)
+        self.assertIsNone(ql.centroid("POINT EMPTY"))
+
+    def binding(self, i, oh="Mo-Fr 09:00-17:00", **kw):
+        b = {"osm": {"value": f"https://www.openstreetmap.org/node/{i}"}, "oh": {"value": oh}, "wkt": {"value": "POINT(8.5 47.4)"}}
+        b.update({k: {"value": v} for k, v in kw.items()})
+        return b
+
+    def test_rows_to_elements(self):
+        els = ql.rows_to_elements([self.binding(1, name="A Lib", city="Zürich"), self.binding(2, oh="Mo 10:00-12:00"), self.binding(2, oh="Tu 10:00-12:00"),
+                                   {"osm": {"value": "https://example.org/x"}, "oh": {"value": "24/7"}, "wkt": {"value": "POINT(1 2)"}}])
+        self.assertEqual([e["id"] for e in els], ["n1", "n2"])
+        self.assertEqual(els[0]["t"]["addr:city"], "Zürich")
+        self.assertEqual(els[0]["lat"], 47.4)
+        self.assertEqual(els[1]["t"].get("_oh_multi"), "1")
+
+    def test_fetch_cache_retry_and_guard(self):
+        with tempfile.TemporaryDirectory() as d:
+            cache = Path(d) / "q" / "planet.json.gz"
+            big = {"results": {"bindings": [self.binding(i, name=f"L{i}") for i in range(1500)]}}
+            calls = []
+
+            def post(q, timeout):
+                calls.append(1)
+                if len(calls) == 1:
+                    raise OSError("down")
+                return json.dumps(big).encode()
+            els, src = ql.fetch(cache, post=post, sleep=lambda s: None)
+            self.assertEqual((src, len(els), len(calls)), ("fetched", 1500, 2))
+            els, src = ql.fetch(cache, post=post, sleep=lambda s: None)
+            self.assertEqual(src, "fresh-cache")
+            els, src = ql.fetch(cache, max_age_days=0, post=lambda q, t: (_ for _ in ()).throw(OSError()), sleep=lambda s: None)
+            self.assertEqual(src, "stale-cache")
+            small = {"results": {"bindings": [self.binding(1)]}}
+            els, src = ql.fetch(Path(d) / "other.gz", post=lambda q, t: json.dumps(small).encode(), sleep=lambda s: None)
+            self.assertEqual(src, "none")  # a tiny answer is treated as a failure, never published
+
+    def test_query_text(self):
+        self.assertIn('osmkey:amenity "library"', ql.QUERY)
+        self.assertIn("geo:hasGeometry/geo:asWKT", ql.QUERY)
+        self.assertIn("OPTIONAL { ?osm osmkey:addr:city ?city }", ql.QUERY)
+
+    def test_resolver_country_and_zone(self):
+        r = ql.Resolver(tz_at=lambda la, lo: "Europe/Zurich" if lo > 0 else "America/Los_Angeles")
+        self.assertEqual(r.resolve(47.4, 8.5, None), ("CH", "Europe/Zurich"))
+        self.assertEqual(r.resolve(47.4, 8.5, "LI"), ("LI", "Europe/Zurich"))   # valid addr:country wins
+        self.assertEqual(r.resolve(47.4, 8.5, "xx"), ("CH", "Europe/Zurich"))   # invalid code ignored
+        self.assertEqual(r.resolve(37.3, -122.0, None), ("US", "America/Los_Angeles"))
+        self.assertIsNone(ql.Resolver(tz_at=lambda a, b: None).resolve(0, 0, None))
+
+    def test_new_zones_are_aliased_for_the_app_tz_database(self):
+        r = ql.Resolver(tz_at=lambda la, lo: "America/Nuuk")
+        self.assertEqual(r.resolve(64.2, -51.7, None), ("GL", "America/Godthab"))
+        self.assertIsNone(ql.Resolver(tz_at=lambda la, lo: "America/Coyhaique").resolve(-45.6, -72.1, None))
+        from zoneinfo import ZoneInfo
+        for z in ql.TZ_ALIASES.values():
+            ZoneInfo(z)
+
+    def test_planet_records_use_resolver(self):
+        r = ql.Resolver(tz_at=lambda la, lo: "Europe/Vienna")
+        els = [{"id": "n9", "lat": 48.2, "lon": 16.37, "t": {"name": "Wien Bücherei", "opening_hours": "Mo-Fr 10:00-18:00; PH off", "amenity": "library"}}]
+        recs = b.osm_records(els, None, {}, set(), r)
+        self.assertEqual((recs[0]["country"], recs[0]["tz"], recs[0]["ph"]), ("AT", "Europe/Vienna", 1))
+        self.assertEqual(recs[0]["city"], "")  # planet path: no fake city; compact() omits it
 
 
 if __name__ == "__main__":
