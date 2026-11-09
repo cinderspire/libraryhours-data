@@ -3199,8 +3199,8 @@
    "parse_rate": 1.0
   }
  },
- "bytes_json": 8562784,
- "bytes_snapshot_gz": 1591638,
+ "bytes_json": 8569051,
+ "bytes_snapshot_gz": 1592328,
  "snapshot_dropped": 0,
  "minutes": 0.0,
  "rejected_site_detail": [

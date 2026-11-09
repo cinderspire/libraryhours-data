@@ -92,9 +92,29 @@ class Holidays(unittest.TestCase):
         self.assertIn(dt.date(2026, 8, 31), d)  # summer bank holiday
         self.assertIn(dt.date(2026, 12, 26), d)
 
+    def test_us_federal_full_and_observed(self):
+        d = {x: n for x, n in hc.holidays("US", 2027)}
+        self.assertEqual(d[dt.date(2027, 7, 5)], "Independence Day")   # July 4 2027 is a Sunday
+        self.assertEqual(d[dt.date(2027, 11, 11)], "Veterans Day")
+        self.assertEqual(d[dt.date(2027, 1, 18)], "Martin Luther King Jr. Day")
+        self.assertEqual(d[dt.date(2027, 2, 15)], "Presidents' Day")
+
+    def test_de_fr_nl_calendars(self):
+        de = {x: n for x, n in hc.holidays("DE", 2027)}
+        for day in (dt.date(2027, 3, 26), dt.date(2027, 3, 29), dt.date(2027, 5, 1), dt.date(2027, 5, 6),
+                    dt.date(2027, 5, 17), dt.date(2027, 10, 3), dt.date(2027, 12, 26)):
+            self.assertIn(day, de)
+        fr = {x for x, _ in hc.holidays("FR", 2026)}
+        self.assertIn(dt.date(2026, 11, 11), fr)
+        self.assertIn(dt.date(2026, 7, 14), fr)
+        nl = {x for x, _ in hc.holidays("NL", 2026)}
+        self.assertIn(dt.date(2026, 4, 27), nl)
+        ca = {x: n for x, n in hc.holidays("CA", 2026)}
+        self.assertEqual(ca[dt.date(2026, 5, 18)], "Victoria Day")
+
     def test_horizon_and_sorted(self):
         ex = hc.exceptions_for("US", None, dt.date(2026, 11, 9))
-        self.assertEqual(ex[0]["d"], "2026-11-26")
+        self.assertEqual(ex[0]["d"], "2026-11-11")  # Veterans Day
         self.assertEqual(ex, sorted(ex, key=lambda e: e["d"]))
         self.assertLessEqual(ex[-1]["d"], "2027-12-31")
 
